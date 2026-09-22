@@ -1159,7 +1159,7 @@
 
 .expertiseSectionBody {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr)) minmax(240px, 0.9fr);
+  grid-template-columns: 1fr 1fr 1.2fr;
   gap: clamp(24px, 4vw, 56px);
   padding-left: calc(90px + clamp(24px, 4vw, 56px));
 }
@@ -1866,5 +1866,112 @@
 
   .headerCta {
     display: none;
+  }
+}
+
+/* ============================================================
+   MOBILE RESPONSIVENESS OVERRIDES
+   ============================================================ */
+
+@media (max-width: 1024px) {
+  /* Flatten complex 3-column / minmax grids to 1 column */
+  .indexBand,
+  .homeIntro,
+  .homeWhy,
+  .homeCareers,
+  .faqSection,
+  .expertiseRow,
+  .insightRow,
+  .processRow,
+  .whyGrid,
+  .valuesGrid,
+  .insightGrid,
+  .storyRelatedBand,
+  .vmSection,
+  .contactDetailBand,
+  .rolesSection,
+  .applySection,
+  .applyColumns,
+  .formRow,
+  .peopleGrid,
+  .roleColumns,
+  .storyMetaGrid,
+  .storyVideoHead,
+  .storyGalleryHead,
+  .expertiseSectionBody,
+  .expertiseSectionHead,
+  .projectStoryHero,
+  .timelineRow,
+  .formSection,
+  .footerTop,
+  .footerMain {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+  }
+
+  /* Specific adjustments for 2-column or tight content */
+  .homeFacts {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  /* Padding clamps can remain, but sometimes need reducing */
+  .expertiseSectionBody {
+    padding-left: 0 !important;
+  }
+
+  /* Re-align numbering and images for stacked layout */
+  .insightRowCover,
+  .storyCover,
+  .archiveStackPlaceholder {
+    width: 100% !important;
+    max-height: none !important;
+    margin-right: 0 !important;
+  }
+
+  /* Hide custom borders that look weird when stacked */
+  .vmBlock,
+  .contactDetailBand > div,
+  .storyMetaCell,
+  .whyBlock,
+  .valueBlock {
+    border-right: none !important;
+    border-bottom: 1px solid var(--line) !important;
+  }
+
+  /* Navigation specific resets */
+  .filterBar {
+    position: static;
+    padding: 16px 20px;
+  }
+  
+  .insightIndex, 
+  .expertiseSection,
+  .storyNarrativeInner,
+  .formSection,
+  .contactDetailBand,
+  .homeIntro,
+  .homeExpertise,
+  .homeSectors,
+  .homeWhy,
+  .homeCareers,
+  .homeInsights,
+  .rolesSection,
+  .applySection,
+  .faqSection {
+    padding: 10vw 5vw !important;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Ensure typography doesn't break on extremely small phones */
+  .insightHero h1,
+  .homeHeroNew h1,
+  .archiveHeroLead h1 {
+    font-size: clamp(32px, 8vw, 48px) !important;
+  }
+  
+  .storyRelatedBand a,
+  .roleCard {
+    padding: 16px !important;
   }
 }

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
 import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 import { expertise, sectorSummary } from "../../data/firm";
@@ -25,94 +24,95 @@ const featuredBySlug: Record<string, string[]> = {
 
 export default function ExpertisePage() {
   return (
-    <main className="subPage">
+    <main className="expertise-page-container">
       <SiteHeader />
 
-      <section className="archiveHero">
-        <div className="archiveHeroLead">
-          <p className="eyebrow">Expertise</p>
-          <h1>One integrated journey from brief to building.</h1>
-          <p>
-            Each discipline is part of a single project journey. Services are shaped around the
-            client brief, site, programme, budget, project stage and desired outcome — so design
-            intent remains consistent from early ideas through decision-making and execution
-            support.
-          </p>
-        </div>
+      <section className="expertise-hero">
+        <p className="eyebrow">Expertise</p>
+        <h1>One integrated journey from brief to building.</h1>
+        <p className="hero-desc">
+          Each discipline is part of a single project journey. Services are shaped around the
+          client brief, site, programme, budget, project stage and desired outcome — so design
+          intent remains consistent from early ideas through decision-making and execution
+          support.
+        </p>
       </section>
 
-      <section className="expertiseSections">
+      <section className="expertise-blocks-wrapper">
         {expertise.map((item, index) => {
           const related = (featuredBySlug[item.slug] ?? [])
             .map((slug) => projects.find((project) => project.slug === slug))
             .filter((project): project is NonNullable<typeof project> => Boolean(project?.cover));
 
           return (
-            <section className="expertiseSection" id={item.slug} key={item.slug}>
-              <div className="expertiseSectionHead">
-                <span className="sectionNumber">{String(index + 1).padStart(2, "0")}</span>
-                <div>
-                  <p className="eyebrow">{item.proposition}</p>
-                  <h2>{item.name}</h2>
-                  <p className="expertiseOverview">{item.overview}</p>
+            <section className="expertise-block" id={item.slug} key={item.slug}>
+              <div className="expertise-grid-layout">
+                {/* LEFT COLUMN: Text and Lists */}
+                <div className="expertise-left-col">
+                  <div className="expertise-header-group">
+                    <span className="expertise-num">{String(index + 1).padStart(2, "0")}</span>
+                    <div className="expertise-title-area">
+                      <p className="eyebrow">{item.proposition}</p>
+                      <h2>{item.name}</h2>
+                      <p className="expertise-overview">{item.overview}</p>
+                    </div>
+                  </div>
+                  <div className="expertise-details-group">
+                    <div className="expertise-list-col">
+                      <span className="expertise-label">Sub-services</span>
+                      <ul>
+                        {item.subServices.map((sub) => (
+                          <li key={sub}>{sub}</li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div className="expertise-list-col">
+                      <span className="expertise-label">Typical deliverables</span>
+                      <ul>
+                        {item.deliverables.map((deliverable) => (
+                          <li key={deliverable}>{deliverable}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div className="expertiseSectionBody">
-                <div>
-                  <span className="filterLabel">Sub-services</span>
-                  <ul>
-                    {item.subServices.map((sub) => (
-                      <li key={sub}>{sub}</li>
-                    ))}
-                  </ul>
-                </div>
-                <div>
-                  <span className="filterLabel">Typical deliverables</span>
-                  <ul>
-                    {item.deliverables.map((deliverable) => (
-                      <li key={deliverable}>{deliverable}</li>
-                    ))}
-                  </ul>
-                </div>
-                {related.length > 0 && (
-                  <div>
-                    <span className="filterLabel">Selected projects</span>
-                    <div className="expertiseProjects">
+
+                {/* RIGHT COLUMN: Project Images */}
+                <div className="expertise-right-col">
+                  {related.length > 0 && (
+                    <div className="expertise-project-list">
                       {related.map((project) => (
-                        <Link href={`/projects/${project.slug}`} key={project.slug}>
+                        <Link href={`/projects/${project.slug}`} key={project.slug} className="expertise-card">
                           <span
+                            className="expertise-image"
                             style={{ backgroundImage: `url("${project.cover}")` }}
                             aria-hidden="true"
                           />
-                          <strong>{project.title}</strong>
+                          <strong className="expertise-card-title">{project.title}</strong>
                         </Link>
                       ))}
                     </div>
-                  </div>
-                )}
+                  )}
+                </div>
               </div>
             </section>
           );
         })}
       </section>
 
-      <section className="homeSectors" aria-label="Sectors">
-        <p className="eyebrow">Sectors we serve</p>
-        <div className="sectorChips">
+      <section className="expertise-sector-band">
+        <p className="expertise-label" style={{textAlign: "center", marginBottom: "0"}}>Sectors we serve</p>
+        <div className="expertise-sector-list">
           {sectorSummary.map((sector) => (
-            <Link key={sector} href="/projects" className="sectorChip">
-              {sector}
-            </Link>
+            <span key={sector} className="expertise-sector-badge">{sector}</span>
           ))}
         </div>
       </section>
 
-      <section className="contactSection studioContact">
-        <p className="eyebrow">Discuss a project</p>
+      <section className="expertise-footer-cta">
         <h2>Tell us the brief, site and stage — we will respond with a clear next step.</h2>
-        <Link href="/contact#start-a-project" className="ctaPrimary contactCta">
-          Start a Project
-          <ArrowUpRight size={17} />
+        <Link href="/contact" className="ctaPrimary">
+          Start a project
         </Link>
       </section>
 

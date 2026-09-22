@@ -1,19 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowUpRight, Mail } from "lucide-react";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
-import ProjectRail from "../components/ProjectRail";
-import { projects } from "../data/projects";
-import {
-  expertise,
-  facts,
-  differentiators,
-  insights,
-  firm,
-  careers,
-  sectorSummary
-} from "../data/firm";
 
 export const metadata: Metadata = {
   title: "Ashraya Architects | Architecture & Design Practice",
@@ -21,194 +9,140 @@ export const metadata: Metadata = {
     "Ashraya Architects is a multidisciplinary architecture and design practice working across architecture, interiors, commercial projects, urban design and visualization."
 };
 
-const heroProject = projects.find((project) => project.slug === "nilkanth-skyline") ?? projects[0];
-
 export default function Home() {
-  const latestInsights = insights.slice(0, 3);
-
   return (
     <main>
       <SiteHeader />
 
-      <section className="homeHeroNew">
-        <div
-          className="heroMedia"
-          style={{ backgroundImage: `url("${heroProject.cover}")` }}
-          aria-hidden="true"
-        />
-        <div className="heroMediaVeil" aria-hidden="true" />
-        <div className="heroContent">
-          <p className="eyebrow">Multidisciplinary architecture & design — Surat, Gujarat</p>
-          <h1>{firm.heroHeadline}</h1>
-          <p className="heroSupport">{firm.heroSupport}</p>
-          <div className="heroActions">
-            <Link href="/projects" className="ctaPrimary">
-              Explore Our Work
-              <ArrowUpRight size={17} />
-            </Link>
-            <Link href="/contact#start-a-project" className="ctaGhost">
-              Start a Project
-            </Link>
-          </div>
-        </div>
-        <div className="heroFootline">
-          <span>{firm.tagline}</span>
-          <span>Est. {firm.founded}</span>
-        </div>
-      </section>
-
-      <section className="indexBand" aria-label="Practice at a glance">
-        <Link href="/projects">
-          <strong>{projects.length}</strong>
-          <span>Launch projects</span>
-        </Link>
-        <Link href="/projects?filter=ongoing">
-          <strong>10</strong>
-          <span>Ongoing projects</span>
-        </Link>
-        <Link href="/studio">
-          <strong>{expertise.length}</strong>
-          <span>Disciplines</span>
-        </Link>
-        <Link href="/studio#people">
-          <strong>2</strong>
-          <span>Co-founders</span>
-        </Link>
-      </section>
-
-      <section className="homeIntro">
-        <div className="sectionNumber">01</div>
-        <div>
-          <p className="eyebrow">The practice</p>
-          <h2>One vision. Multiple disciplines. Meaningful impact.</h2>
-        </div>
-        <div className="homeIntroCopy">
-          <p>{firm.intro50}</p>
-          <Link href="/studio" className="textLink">
-            About the studio
-            <ArrowUpRight size={17} />
-          </Link>
-        </div>
-      </section>
-
-      <div id="work">
-        <ProjectRail />
-      </div>
-
-      <section className="homeExpertise" id="expertise">
-        <div className="homeExpertiseHead">
-          <p className="eyebrow">Expertise</p>
-          <h2>Integrated capability from first study to final detail.</h2>
+      {/* Hero Section */}
+      <section className="hero-minimalist">
+        <div className="hero-calm-bg"></div>
+        <div className="hero-center-content">
+          <img src="/loggo.svg" alt="Ashraya Architects Logo" className="hero-center-logo" />
+          <h1>Design with Clarity. Deliver with Purpose.</h1>
           <p>
-            Services are shaped around the client brief, site, programme and budget — with design
-            intent kept consistent from early ideas through documentation and execution support.
+            A multidisciplinary architecture and design practice shaping architecture, interiors, 
+            commercial developments and urban-scale ideas through rigorous thinking and execution-oriented delivery.
           </p>
         </div>
-        <div className="expertiseList">
-          {expertise.map((item) => (
-            <Link href={`/expertise#${item.slug}`} className="expertiseRow" key={item.slug}>
-              <span className="expertiseIndex">{String(expertise.indexOf(item) + 1).padStart(2, "0")}</span>
-              <strong>{item.name}</strong>
-              <span className="expertiseShort">{item.short}</span>
-              <ArrowUpRight size={18} />
-            </Link>
-          ))}
+      </section>
+
+      {/* Intro / Practice Section */}
+      <section className="split-section">
+        <div className="split-image">
+          <img 
+            src="/views/swarna bhumi/Scene 31_1.png" 
+            alt="Swarnbhumi Project Overview" 
+          />
+        </div>
+        <div className="split-content">
+          <span className="eyebrow">The Practice</span>
+          <h2>One Vision. Multiple Disciplines. Meaningful Impact.</h2>
+          <p>
+            Ashraya Architects is a multidisciplinary architecture and design practice working from concept to built reality. 
+            We combine design thinking, planning, visualization, documentation and coordination to create purposeful solutions 
+            across architecture, interiors, commercial and corporate projects, urban design and related design services.
+          </p>
+          <p>
+            <strong>Founded 2021 | 2 Co-founders | Team 10–15 | 10–12 completed projects | 10 ongoing projects</strong>
+          </p>
+          <div style={{ marginTop: '30px' }}>
+             <Link href="/projects" className="cta-button">Explore Our Work</Link>
+          </div>
         </div>
       </section>
 
-      <section className="homeSectors" aria-label="Sectors">
-        <p className="eyebrow">Sectors we serve</p>
-        <div className="sectorChips">
-          {sectorSummary.map((sector) => (
-            <Link key={sector} href="/projects" className="sectorChip">
-              {sector}
-            </Link>
-          ))}
+      {/* Expertise Section */}
+      <section className="split-section">
+        <div className="split-content" style={{ order: 2 }}>
+          <span className="eyebrow">Expertise</span>
+          <h2>Integrated capability from first study to final detail.</h2>
+          
+          <ul className="clean-list">
+            <li>
+              <span className="list-index">01</span>
+              <span className="list-title">Architecture</span>
+            </li>
+            <li>
+              <span className="list-index">02</span>
+              <span className="list-title">Interior Design</span>
+            </li>
+            <li>
+              <span className="list-index">03</span>
+              <span className="list-title">Urban Design & Master Planning</span>
+            </li>
+            <li>
+              <span className="list-index">04</span>
+              <span className="list-title">Design Consultancy & Feasibility</span>
+            </li>
+            <li>
+              <span className="list-index">05</span>
+              <span className="list-title">Tendering & Construction Documentation</span>
+            </li>
+            <li>
+              <span className="list-index">06</span>
+              <span className="list-title">3D Development & Visualization</span>
+            </li>
+          </ul>
+        </div>
+        <div className="split-image" style={{ order: 1 }}>
+          <img 
+            src="/views/the empire/ChatGPT Image Sep 15, 2026, 05_49_58 PM (1).png" 
+            alt="The Empire Commercial Development" 
+          />
         </div>
       </section>
 
-      <section className="homeWhy">
-        <div className="sectionNumber">02</div>
-        <div>
-          <p className="eyebrow">Why Ashraya</p>
+      {/* Legacy / Why Ashraya Section */}
+      <section className="split-section">
+        <div className="split-image">
+          <img 
+            src="/views/vimal/VB-06_View-01.jpg" 
+            alt="Vimal Bungalow Project" 
+          />
+        </div>
+        <div className="split-content">
+          <span className="eyebrow">Why Ashraya</span>
           <h2>What clients can rely on, stated plainly.</h2>
-        </div>
-        <div className="whyGrid">
-          {differentiators.map((item, index) => (
-            <article className="whyBlock" key={item.title} style={{ "--reveal-index": index } as React.CSSProperties}>
-              <span className="whyIndex">{String(index + 1).padStart(2, "0")}</span>
-              <h3>{item.title}</h3>
-              <p>{item.copy}</p>
-            </article>
-          ))}
-        </div>
-      </section>
-
-      <section className="homeFacts" aria-label="Firm facts">
-        {facts.map((fact) => (
-          <div key={fact.label}>
-            <strong>{fact.value}</strong>
-            <span>{fact.label}</span>
+          
+          <div className="diff-grid">
+            <div className="diff-item">
+              <h3>Multidisciplinary Thinking</h3>
+              <p>Designing across scales, integrating architecture, interiors, and master planning seamlessly.</p>
+            </div>
+            <div className="diff-item">
+              <h3>Concept to Documentation</h3>
+              <p>Maintaining design continuity and clarity from initial sketches to execution blueprints.</p>
+            </div>
+            <div className="diff-item">
+              <h3>Execution-Oriented</h3>
+              <p>Making design decisions grounded in constructability, performance, and commercial reality.</p>
+            </div>
+            <div className="diff-item">
+              <h3>Business-Aware</h3>
+              <p>Providing strategic design for corporate and real-estate clients seeking measurable outcomes.</p>
+            </div>
           </div>
-        ))}
-      </section>
-
-      <section className="homeInsights">
-        <div className="homeInsightsHead">
-          <div>
-            <p className="eyebrow">Insights</p>
-            <h2>Design thinking, in the open.</h2>
-          </div>
-          <Link href="/insights" className="textLink">
-            All insights
-            <ArrowUpRight size={17} />
-          </Link>
-        </div>
-        <div className="insightGrid">
-          {latestInsights.map((insight) => (
-            <Link href={`/insights/${insight.slug}`} className="insightCard" key={insight.slug}>
-              <span
-                className="insightCover"
-                style={{ backgroundImage: `url("${insight.cover}")` }}
-                aria-hidden="true"
-              />
-              <span className="insightMeta">
-                <small>
-                  {insight.category} / {insight.readingTime}
-                </small>
-                <strong>{insight.title}</strong>
-                <p>{insight.excerpt}</p>
-              </span>
-            </Link>
-          ))}
         </div>
       </section>
 
-      <section className="homeCareers">
-        <div>
-          <p className="eyebrow">Careers</p>
-          <h2>{careers.headline}</h2>
-          <p>{careers.proposition}</p>
-        </div>
-        <Link href="/careers" className="textLink">
-          View open roles
-          <ArrowUpRight size={17} />
-        </Link>
+      {/* Sustainability Teaser */}
+      <section className="container" style={{ padding: '8vw 5vw', textAlign: 'center' }}>
+          <span className="eyebrow">Responsibility</span>
+          <h2 style={{ maxWidth: '900px', margin: '0 auto 24px auto' }}>
+            We begin with the real project problem—not a predetermined style.
+          </h2>
+          <p style={{ maxWidth: '700px', margin: '0 auto' }}>
+            Responsible design is integrated through passive thinking, resource awareness, material choices, 
+            indoor environmental quality and efficient planning—not treated as a separate visual layer.
+          </p>
       </section>
 
-      <section id="contact" className="contactSection">
-        <p className="eyebrow">Begin a project</p>
+      {/* Contact Section */}
+      <section className="contact-block">
+        <span className="eyebrow">Begin a project</span>
         <h2>Have a project, collaboration or idea to discuss? Start a conversation with Ashraya Architects.</h2>
-        <div className="contactActions">
-          <Link href="/contact#start-a-project" className="ctaPrimary">
-            Start a Project
-            <ArrowUpRight size={17} />
-          </Link>
-          <a href={`mailto:${firm.email}`} className="ctaGhost">
-            <Mail size={17} />
-            {firm.email}
-          </a>
-        </div>
+        <Link href="/contact" className="cta-button">Start a Project</Link>
       </section>
 
       <SiteFooter />

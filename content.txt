@@ -1,0 +1,2230 @@
+ASHRAYA ARCHITECTS
+WEBSITE CONTENT MASTER FORM
+HCP-inspired structure + global corporate architecture benchmark
+Fillable content/data collection workbook for client, design, content and web-development teams
+Prepared for
+Ashraya Architects
+Document owner
+Priyansh 
+Barvaliya
+Website developer / agency
+Ashraya one
+Version
+Strong Corporate Brand Identity
+Date
+15-09-2026
+Final approval by
+Priyansh 
+Barvaliya
+CONFIDENTIAL WORKING DOCUMENT
+0. HOW TO USE THIS MASTER FORM
+This workbook is designed to collect every piece of website content before UI design, copywriting and development. Complete what is available now; mark unavailable items as “Phase 2” instead of deleting them.
+PRIORITY
+MEANING
+ACTION
+MUST
+Required for launch
+Complete before design/development freeze.
+SHOULD
+Strongly recommended
+Complete if data is available; otherwise add to Phase 2 backlog.
+OPTIONAL
+Enhancement
+Can be introduced after launch.
+Recommended workflow
+☐ Leadership completes Sections 1–5 (brand, positioning, audiences, sitemap, business goals).
+☐ Project team completes Section 7 for every featured project.
+☐ Discipline leads complete Expertise and Sector forms.
+☐ HR completes People + Careers.
+☐ Marketing completes Insights, Awards, Media, Client Proof and SEO.
+☐ Admin/legal completes Contact, Policies, Corporate Details and downloadable credentials.
+☐ Website developer uses Sections 22–29 as the implementation checklist.
+☐ Before launch, run the final content and asset audit in Section 30.
+1. BENCHMARK BASIS & WEBSITE DIRECTION
+Use HCP as the visual/architectural reference, while adding deeper expertise, sector, research, people, sustainability, client-conversion and cross-linking systems observed on leading global architecture practices.
+REFERENCE
+WHAT TO STUDY / ADOPT
+ASHRAYA DIRECTION
+HCP Design, Planning and Management
+Minimal, project-first, restrained, serious architectural identity; research/publications; contact routing.
+Primary visual and tone benchmark.
+Gensler
+Clear service architecture, business-oriented language, research, careers.
+Stronger expertise and client value communication.
+SOM
+Ideas/research ecosystem, innovation, project storytelling.
+Build thought leadership and deeper flagship case studies.
+HOK
+Discipline pages combining positioning, leadership, research, projects and news.
+Cross-link expertise → people → projects → insights.
+OMA
+Project archive filters, list/map views, people.
+Advanced work browsing and taxonomy.
+Perkins&Will
+Research organized around areas of inquiry and market knowledge.
+Evidence-based design and sector authority.
+Core design principle
+Target: HCP-level visual restraint + stronger corporate communication and business-development infrastructure. Avoid both extremes: do not create an empty image-only portfolio, and do not create a cluttered marketing website.
+2. WEBSITE BUSINESS GOALS & SUCCESS CRITERIA
+FIELD / DATA
+PRIORITY
+WHAT TO PROVIDE
+YOUR RESPONSE / FILE REF
+Primary business objective
+MUST
+Example: win corporate/developer projects; build brand credibility; generate qualified leads.
+Position Ashraya Architects as a credible corporate multidisciplinary design practice; win qualified corporate, real-estate developer and premium design commissions; strengthen brand credibility; and convert website visitors into project enquiries.
+Secondary objectives
+MUST
+Recruitment, collaborations, vendor network, thought leadership, publicity, portfolio sharing.
+Recruit strong design talent; build consultant/vendor collaborations; expand industry network; support publicity and portfolio sharing; publish design thinking and research; strengthen employer brand; and create a professional resource for clients, partners and media.
+12-month website goals
+MUST
+Define 3–5 measurable outcomes.
+1) Launch a complete corporate website with 8–15 strong projects. 2) Build consistent qualified project enquiries through Start a Project. 3) Establish searchable expertise/sector authority. 4) Support recruitment with structured careers pages. 5) Publish a regular stream of design-thinking/insight content and improve brand discovery through SEO.
+Ideal monthly qualified enquiries
+SHOULD
+Target number and quality, not just traffic.
+Set a quantified monthly target before launch. Measure qualified enquiries by sector fit, project scale, budget readiness and decision-maker involvement—not traffic alone. Final numerical target: INPUT REQUIRED.
+Priority geographic markets
+MUST
+Cities/states/countries you actively want to serve.
+Primary: Surat and Gujarat. Secondary: wider India, depending on project type, scale and scope. Add specific expansion cities only when 
+they become active business-development priorities.
+Priority project sizes
+SHOULD
+Area / budget / fee / scale bands, if appropriate to publish.
+We primarily engage with medium- to large-scale architecture, commercial, corporate, residential, institutional and interior projects, while selectively undertaking smaller projects with exceptional design, strategic or long-term value.
+Priority sectors
+MUST
+Rank 1–5.
+1. Residential / Housing
+2. Commercial / Office Buildings
+3. Real Estate Development
+4. Township / Urban Development
+5. Hospitality
+Secondary: Industrial / Manufacturing — publish prominently only when supported by verified project proof.
+Priority services
+MUST
+Rank 1–5.
+1. Architecture
+2. Interior Design
+3. Urban Design / Master Planning
+4. Tendering & Construction Documentation
+5. 3D Development / Architectural Visualization
+Supporting capabilities: Product / Furniture Design; Brochure / Real-estate Design Communication.
+Website languages
+SHOULD
+English primary; Gujarati/Hindi or others if planned.
+English
+Primary conversion action
+MUST
+Example: Start a Project.
+Start a Project
+Secondary conversion actions
+MUST
+Download profile, call, WhatsApp, careers application, newsletter, etc.
+Explore Our Work; Download Company Profile; Call / WhatsApp; Apply for Careers/Internships; Vendor/Consultant Collaboration Enquiry; Media Enquiry; Follow social channels.
+3. TARGET AUDIENCE & USER JOURNEYS
+AUDIENCE
+WHAT THEY NEED TO TRUST
+CONTENT THEY SHOULD SEE
+DESIRED ACTION
+Real-estate developer / investor
+Commercial understanding, scale, planning, delivery, value creation.
+Featured commercial/development projects; planning and design strategy; project process; services; measurable outcomes; credentials.
+Start a Project / Discuss a Development
+Corporate client
+Professional systems, workplace knowledge, governance, reliability, execution.
+Corporate/workplace projects; systems and delivery process; interiors/architecture capability; coordination; case studies; team.
+Start a Project / Discuss a Corporate Requirement
+Private / premium client
+Design quality, trust, customization, process.
+Selected residential/interior projects; design philosophy; process; material/detail quality; clear engagement pathway.
+Start a Project
+Institution / public client
+Credentials, technical capability, compliance, multidisciplinary delivery.
+Credentials; multidisciplinary expertise; documentation/tender capability; compliance-focused process; selected institutional/public work.
+Request Credentials / Contact Team
+Talent / job applicant
+Culture, learning, growth, projects, open roles.
+Studio culture; learning and mentorship; project/site exposure; open roles; application requirements.
+View Open Roles / Apply
+Consultant / collaborator
+Project profile, disciplines, contact pathway.
+Practice profile; active sectors; disciplines; project process; collaboration contact.
+Submit Profile / Collaborate
+Vendor / manufacturer
+Procurement/contact routing.
+Relevant services/sectors; vendor introduction route; catalogue/submittal requirements.
+Introduce Products / Vendor Enquiry
+Media / publication
+Approved facts, images, spokesperson, press contact.
+Approved firm profile; leadership bios; press-ready project images; facts; media contact.
+Request Press Material / Contact Media Team
+4. BRAND FOUNDATION & CORPORATE IDENTITY
+FIELD / DATA
+PRIORITY
+WHAT TO PROVIDE
+YOUR RESPONSE / FILE REF
+Official firm name
+MUST
+Exact legal/display spelling.
+Ashraya Architects
+Short brand name
+SHOULD
+If different from legal name.
+Ashraya
+Tagline
+SHOULD
+Short memorable brand line.
+Let’s Design Tomorrow.
+One-line positioning statement
+MUST
+Who you are + what you do + value/outcome.
+Ashraya Architects is a multidisciplinary architecture and design practice delivering architecture, interiors, urban thinking, visualization and execution-oriented documentation from concept to built reality.
+50-word company introduction
+MUST
+Homepage / quick bio.
+Ashraya Architects is a multidisciplinary architecture and design practice working across architecture, interiors, commercial and corporate projects, urban design, master planning, visualization, tendering and design communication. We combine design thinking with practical delivery, creating clear, context-responsive solutions from early concept through documentation and built execution.
+100-word company introduction
+MUST
+About / directories.
+Ashraya Architects is a multidisciplinary architecture and design practice focused on thoughtful design, clear project strategy and reliable delivery. Our work spans architecture, commercial and corporate projects, interior design, urban design, master planning, tendering and construction documentation, 3D development and architectural visualization, brochure and real-estate design communication, and product/furniture design. We approach each commission as a complete design journey—from research and concept development to coordination, visualization, documentation and execution support. Our ambition is to build lasting client relationships by creating solutions that are purposeful, commercially aware, technically resolved and responsive to people, place and project goals.
+250-word company profile
+MUST
+Corporate profile / SEO / press.
+Ashraya Architects is a multidisciplinary architecture 
+and design practice built around the belief that strong design must connect vision with practical delivery. The studio works across architecture, commercial and corporate projects, interior design, urban design and master planning, while supporting projects through design consultancy, tendering and construction documentation, 3D development and architectural visualization, brochure and real-estate design communication, and product/furniture design.
+Our process begins with understanding the client, project goals, context, budget, programme and long-term value. Research and design drivers are translated into clear concepts, planning strategies, visualizations and coordinated documentation. We aim to balance human experience, spatial quality, functionality, technical coordination, constructability and commercial considerations rather than treating design as a purely visual exercise.
+Ashraya Architects is developing as a corporate, systems-led practice with a strong focus on professional project delivery, transparent communication and long-term industry relationships. Our website and public communication are intended to show not only finished images, but also the thinking, process, collaboration and measurable value behind the work.
+From product and interior scale to buildings, commercial developments and urban-scale thinking, the practice seeks to create meaningful, responsible and well-resolved design outcomes—from vision to built reality.
+Firm story
+MUST
+Origin, founding motivation, evolution and current ambition.
+Our Story
+Founded in 2021 by Priyansh 
+Barvaliya
+ and Meet Lad, Ashraya Architects was born from a shared ambition to create spaces that go beyond function — spaces that carry purpose, identity and lasting value.
+The name Ashraya reflects our belief in creating places that offer a sense of shelter, belonging and connection. What began as a focused design practice has steadily evolved into a growing multidisciplinary studio, bringing together architecture, interiors, visualization, planning and project consultancy.
+Our journey is driven by curiosity, continuous learning and the desire to challenge conventional ways of thinking. Each project strengthens our understanding of design, technology, execution and collaboration.
+Today, we are building Ashraya Architects into a future-ready corporate design practice — structured, multidisciplinary and ambitious, yet deeply rooted in thoughtful design.
+One Vision. Multiple Disciplines. Meaningful Impact.
+Let’s Design Tomorrow.
+Vision
+MUST
+Long-term ambition.
+Our long-term ambition is to build Ashraya Architects into a recognized, trusted and future-ready multidisciplinary design practice, known for thoughtful design, professional delivery and meaningful impact.
+We aim to grow beyond individual projects and establish a strong corporate practice capable of delivering large-scale, complex and diverse projects across sectors and geographies.
+By combining design thinking, technology, technical expertise, strong systems and 
+collaboration, we aspire to create lasting value for our clients, communities and the built environment.
+Our goal is not only to grow in scale, but to build a strong design brand with lasting relevance and global perspective.
+Mission
+MUST
+What you do consistently to achieve the vision.
+To translate client vision into well-researched, context-responsive and technically resolved design through a disciplined process of discovery, design, visualization, coordination, documentation and execution support.
+Purpose
+SHOULD
+Why the firm exists beyond commercial activity.
+To improve how people experience spaces and developments by connecting design quality, functionality, responsibility and practical execution.
+Core values
+MUST
+3–7 values, with one sentence each.
+Clarity — communicate and design with purpose.
+Responsibility — make decisions that respect people, context, resources and commitments.
+Collaboration — integrate clients, consultants, teams and partners early.
+Rigour — resolve design through research, coordination and detail.
+Progress — continuously improve systems, technology and design thinking.
+Integrity — be transparent, dependable and professional in every engagement.
+Design philosophy
+MUST
+Core belief about architecture/design.
+Design should be purposeful, contextual and buildable. Ashraya seeks to understand the real problem first, then shape spatial, technical and visual solutions that balance human experience, project performance, commercial realities and long-term value.
+Design principles
+MUST
+3–7 principles such as context, people, performance, responsibility, detail.
+Context before form; People and experience; Clear planning and functionality; Performance and responsibility; Integrated 
+coordination; Detail and constructability; Continuous learning.
+Brand personality
+MUST
+Select 5–8: precise, calm, progressive, human, rigorous, etc.
+Precise, calm, progressive, professional, thoughtful, human, rigorous, understated.
+Words to avoid
+SHOULD
+Clichés/claims you do not want on the website.
+Avoid unsupported clichés such as iconic, world-class, revolutionary, unique, luxurious and innovative. Prefer specific evidence, process and outcomes.
+Tone of voice
+MUST
+Example: sophisticated, concise, evidence-based, confident, non-boastful.
+Sophisticated, concise, confident, evidence-based, design-literate, business-aware and non-boastful.
+ASSET
+QTY / VARIANTS
+RECOMMENDED CONTENT / SPEC
+STATUS / FILE NAME
+Primary logo
+SVG + PNG
+Light/dark variants; transparent background.
+Brand mark / monogram
+SVG + PNG
+If available.
+Brand guidelines
+PDF
+Colors, typography, spacing, logo rules.
+Office/team photography
+10–20
+Natural, documentary-style; avoid stock imagery.
+Founding/archive images
+3–10
+If meaningful to the story.
+5. CORPORATE FACTS, CREDENTIALS & PROOF
+FIELD / DATA
+PRIORITY
+WHAT TO PROVIDE
+YOUR RESPONSE / FILE REF
+Year founded
+MUST
+Verified year.
+2021
+Founder(s)
+MUST
+Names and current roles.
+Priyansh Barvaliya — Co-founder & Principal Architect
+Meet Lad — Co-founder & Principal Architect
+Head office
+MUST
+City, state, country.
+A-503, Vivanta Icon, Madhuvan Circle, Pal, Surat, Gujarat, India.
+Other offices / presence
+OPTIONAL
+Cities / representative locations.
+-
+Team size
+MUST
+Current verified number or range.
+10–15 (working figure; verify current headcount before publication).
+Projects completed
+SHOULD
+Verified number only.
+10–12 completed projects (working figure; verify exact count before publication).
+Projects ongoing
+SHOULD
+Verified number only.
+10 ongoing projects (verify current count before publication).
+Cities / regions served
+SHOULD
+Verified count/list.
+Primary: Surat and Gujarat. Wider India: considered based on project type, scale and scope.
+Area designed / delivered
+OPTIONAL
+Sq ft / sq m; define calculation basis.
+-
+Years of combined leadership experience
+OPTIONAL
+If verifiable.
+14 years combined, based on 7 years listed for each principal in Section 14; verify before publication.
+Registrations / memberships
+MUST
+COA/industry bodies/company registrations as appropriate.
+INPUT REQUIRED: confirm COA registrations and any firm/industry memberships before publication.
+Quality / ISO certifications
+OPTIONAL
+Certificate, scope and validity.
+Not provided; do not publish ISO or other certification claims unless verified.
+Awards count
+OPTIONAL
+Only if maintained and verifiable.
+Not provided; publish only verified awards/recognition.
+Repeat-client percentage
+OPTIONAL
+If tracked.
+Not tracked / not provided; omit from the public website unless a verified figure is available.
+Professional indemnity / insurance
+OPTIONAL
+Public wording only; sensitive details need not be published.
+Not provided; keep off the public website unless a verified public statement is required.
+PAN/GST/CIN etc. publication decision
+MUST
+Usually keep sensitive identifiers off public site; specify if any should appear.
+-
+6. FINAL SITEMAP / INFORMATION ARCHITECTURE
+PRIMARY NAV
+SECONDARY / CHILD PAGES
+LAUNCH?
+OWNER
+WORK
+All Projects | Featured | Case Studies | sector filters | service filters
+Phase 1
+Project/Marketing
+EXPERTISE
+Architecture | Interiors | Urban Design | Master Planning | Design Consultancy | Tendering/Documentation | Visualization | Product Design | Project/Construction Management as applicable
+Phase 1
+Leadership/Discipline Leads
+STUDIO
+About | Philosophy | Process | People | Sustainability | Technology | Clients | Awards/Recognition
+Phase 1
+Leadership/Marketing
+INSIGHTS
+Research | Design Thinking | Articles | Case Studies | News | Publications
+Phase 1
+Leadership/Marketing
+CAREERS
+Culture | Open Roles | Internships | Apply | FAQ
+Phase 1
+HR/Leadership
+CONTACT
+New Projects | General | Careers | Vendors | Collaborations | Media
+Phase 1
+Admin/Business Development
+PRIMARY CTA
+Start a Project
+Phase 1
+Business Development
+FIELD / DATA
+PRIORITY
+WHAT TO PROVIDE
+YOUR RESPONSE / FILE REF
+Header navigation final order
+MUST
+Keep 5–7 visible items maximum.
+Work | Expertise | Studio | Insights | Careers | Contact
+Persistent CTA: Start a Project
+Footer navigation groups
+MUST
+Define all footer links.
+Work: Featured Projects, All Projects
+Expertise: Architecture, Interior Design, Urban Design & Master Planning, Tendering & Documentation, Visualization
+Studio: About, Process, People, Sustainability, Technology
+Insights: Design Thinking, Articles, News
+Connect: Start a Project, Careers, Vendors / Collaborations, Media
+Utility: LinkedIn, Instagram, 
+WhatsApp, Company Profile, Privacy / Legal
+Utility links
+SHOULD
+Search, language, social, downloads, etc.
+Search; LinkedIn; Instagram; WhatsApp; Download Company Profile. Language switcher can be Phase 2.
+Phase 2 pages
+SHOULD
+Pages not required for first launch.
+Advanced project map/filtering; deeper research reports; richer sustainability/technology pages; downloadable credential library; newsletter; multilingual Gujarati/Hindi; gated resources; interactive data/diagrams.
+7. HOMEPAGE CONTENT FORM
+Keep the homepage visually restrained. It should establish positioning, prove capability, route users to work/expertise, and end with a clear project enquiry action.
+FIELD / DATA
+PRIORITY
+WHAT TO PROVIDE
+YOUR RESPONSE / FILE REF
+Hero headline
+MUST
+3–10 words; avoid generic “we create spaces”.
+Design with Clarity. Deliver with Purpose.
+Hero supporting line
+MUST
+1–2 sentences; clarify practice/ambition.
+A multidisciplinary architecture and design practice shaping architecture, interiors, commercial developments and urban-scale ideas through rigorous thinking and execution-oriented delivery.
+Hero primary CTA
+MUST
+Recommended: Explore Our Work.
+Explore Our Work
+Hero secondary CTA
+SHOULD
+Recommended: Start a Project.
+Start a Project
+Hero project / media
+MUST
+Specify project and file reference.
+Nilkanth
+ Skyline 
+Studio intro
+MUST
+40–70 words.
+Ashraya Architects is a multidisciplinary architecture and design practice working from concept to built reality. We combine design thinking, planning, visualization, documentation and coordination to create purposeful solutions across architecture, interiors, commercial and corporate 
+projects, urban design and related design services.
+Featured projects
+MUST
+Select 6–10; define order.
+1. Nilkanth Skyline
+2. Swarnbhumi
+3. The Empire
+4. Tithal Farmhouse
+5. Valsad Bungalow
+6. Uttam Bungalow
+7. Casa Ceilo
+Expertise summary
+MUST
+List primary disciplines.
+Architecture; Interior Design; Urban Design; Master Planning; Design Consultancy / Feasibility; Tendering & Construction Documentation; 3D Development / Architectural Visualization; Product / Furniture Design; Brochure / Real-estate Design Communication.
+Sector summary
+SHOULD
+List priority client markets.
+Residential / Housing; Commercial / Office Buildings; Real Estate Development; Township / Urban Development; Hospitality. Industrial / Manufacturing should be promoted only where verified project proof is available.
+Why Ashraya
+MUST
+3–6 proof-based differentiators.
+Multidisciplinary thinking across scales; concept-to-documentation continuity; execution-oriented design decisions; strong visualization and communication; structured client/project process; business-aware design for corporate and real-estate clients.
+Design philosophy teaser
+SHOULD
+30–60 words.
+We begin with the real project problem—not a predetermined style. Context, people, planning, performance, coordination and constructability guide the design so that ideas remain clear from concept through documentation and execution.
+Featured case study
+SHOULD
+One flagship project with business/design narrative.
+Nilkanth
+ Skyline
+Firm facts / numbers
+SHOULD
+3–6 verified facts.
+Founded 2021 | 2 Co-founders | Team 10–15 | 10–12 completed projects | 10 ongoing projects | Surat / 
+Gujarat base + wider India. Verify current counts before publishing.
+Selected clients
+SHOULD
+Logos/names with permission.
+Publish only approved client names/logos. If permissions are unavailable at launch, omit this block from Phase 1 rather than using placeholders.
+Featured testimonial
+SHOULD
+Short approved quote.
+Publish only a written, approved testimonial with named attribution. If none is approved at launch, omit this block from Phase 1.
+Sustainability / innovation teaser
+SHOULD
+One meaningful proof point.
+Responsible design is integrated through passive thinking, resource awareness, material choices, indoor environmental quality and efficient planning—not treated as a separate visual layer.
+Latest insight / news
+SHOULD
+1–3 latest pieces.
+Launch with 3–6 insight pieces. Suggested themes: Design Thinking; Residential & Commercial Planning; Human-Centric Workplace Design; Project Process / Behind the Scenes; Construction Knowledge; Materials & Technology.
+Careers teaser
+OPTIONAL
+Short employer proposition.
+Design. Think. Create. Grow With Us. Join a collaborative studio with learning, project responsibility and real site exposure.
+Final CTA statement
+MUST
+Inviting, confident, concise.
+Have a project, collaboration or idea to discuss? Start a conversation with Ashraya Architects.
+ASSET
+QTY / VARIANTS
+RECOMMENDED CONTENT / SPEC
+STATUS / FILE NAME
+Hero video
+1
+8–20 sec silent loop, desktop/mobile crops; or premium still if no video.
+Pending: use Nilkanth Skyline video if suitable, otherwise a premium still; prepare desktop and mobile crops.
+Homepage project images
+8–15
+High-resolution landscape + portrait crops.
+Pending: select high-resolution landscape and portrait images from launch projects.
+Studio/team image
+1–3
+Real studio culture.
+Pending: select 1–3 real studio/team images.
+Client logos
+As approved
+SVG/PNG, monochrome-compatible.
+Pending permissions; omit client-logo block at launch if approvals are not available.
+Featured insight thumbnails
+3
+Consistent editorial crop.
+Create 3 consistent editorial thumbnails for launch insights.
+8. WORK / PROJECT ARCHIVE CONTENT FORM
+FIELD / DATA
+PRIORITY
+WHAT TO PROVIDE
+YOUR RESPONSE / FILE REF
+Archive intro
+SHOULD
+20–60 words.
+Explore selected work across architecture, interiors, commercial and corporate projects, urban design and related disciplines—showing both completed outcomes and the design thinking behind them.
+Default sort
+MUST
+Featured / newest / alphabetical / status.
+Featured first, then newest.
+Filter by sector
+MUST
+Final taxonomy.
+Residential / Housing; Commercial / Office Buildings; Real Estate Development; Township / Urban Development; Hospitality; Industrial / Manufacturing only where verified project work is published.
+Filter by service
+MUST
+Final taxonomy.
+Architecture; Interior Design; Urban Design; Master Planning; Design Consultancy; Tendering & Construction Documentation; Visualization; Product/Furniture Design; Real-estate Design Communication.
+Filter by status
+SHOULD
+Completed / Ongoing / Under Construction / Concept.
+Completed | Ongoing | Under Construction | Concept
+Filter by location
+SHOULD
+City/state/country rules.
+City, State, Country; show only locations for published projects.
+Filter by year
+OPTIONAL
+Year or range.
+Use project year when verified; optional at launch.
+List / grid / map views
+OPTIONAL
+Decide launch vs future.
+Phase 1: Grid + list. Phase 2: Map/advanced filters.
+9. MASTER PROJECT CONTENT FORM — COMPLETE ONCE FOR EACH FEATURED PROJECT
+Duplicate this section for every project selected for launch. Flagship projects should be developed as deeper case studies; smaller projects may use the short-form fields only.
+A. Basic project data
+FIELD / DATA
+PRIORITY
+WHAT TO PROVIDE
+YOUR RESPONSE / FILE REF
+Project name
+MUST
+Official public name.
+1. Nilkanth Skyline
+2. Swarnbhumi
+3. The Empire
+4. Tithal Farmhouse
+5. Valsad Bungalow
+6. Uttam Bungalow
+7. Casa Ceilo
+Confidentiality / public-name rule
+MUST
+If client name/project name is confidential, define safe public wording.
+-
+Location
+MUST
+City, state, country.
+-
+Client
+SHOULD
+Exact approved name or “Confidential Client”.
+-
+Sector / typology
+MUST
+Use approved website taxonomy.
+-
+Service(s) provided
+MUST
+Architecture, interiors, master planning, etc.
+-
+Status
+MUST
+Completed / ongoing / under construction / concept.
+-
+Year started
+SHOULD
+-
+Year completed / expected
+SHOULD
+-
+Site area
+OPTIONAL
+Sq m / sq ft.
+-
+Built-up area
+SHOULD
+Define whether GFA/BUA.
+-
+Project scale
+OPTIONAL
+Floors, keys, seats, units, workstations, etc.
+-
+Construction cost / budget publication decision
+OPTIONAL
+Only if approved.
+Publish only if specifically approved by the client/leadership; otherwise omit.
+Lead architect / project lead
+SHOULD
+-
+Internal project team
+SHOULD
+-
+Consultants
+SHOULD
+Structural, MEP, façade, landscape, lighting, etc.
+-
+Contractor(s)
+OPTIONAL
+-
+Photographer / visualization credits
+MUST
+Required where applicable.
+-
+Awards / certification
+OPTIONAL
+Award/certification/year.
+-
+B. Project story
+FIELD / DATA
+PRIORITY
+WHAT TO PROVIDE
+YOUR RESPONSE / FILE REF
+One-line project summary
+MUST
+20–30 words.
+Short overview
+MUST
+80–150 words.
+Full narrative
+SHOULD
+300–700 words for flagship projects.
+Client brief
+SHOULD
+What was required?
+Design challenge
+SHOULD
+Constraints/problem to solve.
+Site/context
+SHOULD
+Climate, orientation, access, surroundings, urban context.
+Design concept
+MUST
+Central idea and rationale.
+Planning / spatial strategy
+SHOULD
+Zoning, circulation, public/private, flexibility.
+Façade / envelope strategy
+OPTIONAL
+Material strategy
+OPTIONAL
+Landscape strategy
+OPTIONAL
+Structure / engineering idea
+OPTIONAL
+Interior strategy
+OPTIONAL
+Technology / BIM / digital process
+OPTIONAL
+Construction / execution story
+SHOULD
+Key coordination or implementation points.
+Project outcome
+SHOULD
+What improved / changed / was achieved.
+Lessons / insight
+OPTIONAL
+What was learned or innovated.
+C. Measurable project performance / client value
+METRIC / VALUE
+BASELINE / TARGET
+ACHIEVED RESULT
+EVIDENCE / SOURCE
+PUBLIC?
+Area efficiency / planning yield
+Daylight / glazing / comfort
+Energy / EUI / reduction
+Water reduction
+Carbon / material impact
+Occupancy / capacity
+Flexibility / modularity
+Cost / lifecycle value
+Time / phasing / delivery
+Commercial / leasing / user outcome
+Certification / rating
+D. Project media / drawings
+ASSET
+QTY / VARIANTS
+RECOMMENDED CONTENT / SPEC
+STATUS / FILE NAME
+Hero image
+1
+Highest-impact project view, clean high-res original.
+Gallery images
+10–30
+Exterior, interior, detail, context, user experience.
+Vertical/mobile images
+3–8
+Portrait crops for mobile/social.
+Site/context diagram
+1
+Simple, branded graphic.
+Concept diagrams
+2–6
+Massing, drivers, evolution.
+Plans
+1–5
+Clean presentation drawings only.
+Sections
+1–3
+Clean presentation drawings.
+Elevations
+0–3
+If meaningful.
+Axonometric/exploded
+0–2
+If meaningful.
+Material palette
+0–1
+Optional editorial graphic.
+Construction/progress photos
+3–10
+For journey/case study.
+Before/after
+0–4
+Transformation/adaptive reuse.
+Walkthrough/video
+0–2
+Hosted video or optimized web version.
+360/VR
+Optional
+Only if technically justified.
+E. Project SEO & sharing
+FIELD / DATA
+PRIORITY
+WHAT TO PROVIDE
+YOUR RESPONSE / FILE REF
+Project page title
+MUST
+Human-readable + location/typology where useful.
+Meta title
+MUST
+~50–60 characters target.
+Meta description
+MUST
+~140–160 characters target.
+Primary search theme
+SHOULD
+Natural topic, not keyword stuffing.
+Open Graph image
+MUST
+Recommended 1200×630 crop.
+Related projects
+MUST
+3–6 links.
+Related expertise
+MUST
+Relevant service links.
+Related insight/research
+SHOULD
+Relevant articles/reports.
+10. EXPERTISE / SERVICE PAGE MASTER FORM
+Create one completed form for each major capability. Strong global corporate firms treat each expertise as a content hub, not a one-paragraph services list.
+FIELD / DATA
+PRIORITY
+WHAT TO PROVIDE
+YOUR RESPONSE / FILE REF
+Expertise name
+MUST
+Example: Architecture.
+Core expertise pages: Architecture; Interior Design; Urban Design; Master Planning; Tendering & Construction Documentation; 3D 
+Development / Architectural Visualization.
+Supporting capabilities: Design Consultancy / Feasibility; Product / Furniture Design; Brochure / Real-estate Design Communication.
+Project / Construction Management: include only after leadership confirms the actual delivery scope.
+One-line proposition
+MUST
+What value does this expertise create?
+Integrated design capability that turns project goals into clear, coordinated and buildable outcomes.
+Overview
+MUST
+100–200 words.
+Ashraya Architects approaches each expertise as part of an integrated project journey. Services are shaped around the client brief, site, programme, budget, project stage and desired outcome. The team combines research, design development, visualization, technical documentation and coordination so that design intent remains consistent from early ideas through decision-making and execution support. Each service page should explain the client problem, Ashraya’s process, typical deliverables and relevant project proof rather than functioning as a simple service list.
+Client problems addressed
+MUST
+List 4–8.
+Unclear project direction; inefficient planning; fragmented consultant coordination; weak design communication; inconsistent documentation; constructability gaps; approval/tender complexity; difficulty translating concept into built outcome.
+Sub-services
+MUST
+Detailed scope.
+Architecture: concept, planning, design development, façade, documentation. Interiors: space planning, materials, detailing, furniture coordination. Urban/Master Planning: site structure, zoning, movement, public realm. 
+Tendering/Documentation: working drawings, schedules, BOQ/specification coordination, tender packages. Visualization: 3D development, rendered views, presentation communication. Product/Furniture: custom design development. Real-estate communication: brochure/presentation design.
+Typical deliverables
+MUST
+Drawings, reports, models, documentation, etc.
+Brief/programme; concept options; plans/sections/elevations; 3D views; material palettes; presentations; working drawings; schedules; consultant coordination packages; tender documentation; BOQ/specification coordination; review notes and site-support records as applicable.
+Who we work with
+SHOULD
+Developer/corporate/institution/private etc.
+Real-estate developers, corporate clients, private clients, institutions/public bodies, consultants and project partners.
+Project types
+MUST
+Relevant sectors.
+Residential / Housing; Commercial / Office Buildings; Real Estate Development; Township / Urban Development; Hospitality; and other sectors only where verified experience is available.
+Process / methodology
+SHOULD
+How this service is delivered.
+Discover → Research → Define → Concept → Develop → Visualize → Coordinate → Document → Tender/Procurement → Construction Support → Quality Review → Handover → 
+Post-Occupancy
+ learning, depending on scope.
+Technology/tools
+SHOULD
+BIM/software/simulation/workflows.
+Keep public wording capability-based until the exact software stack is approved. Publish software/BIM names only when they reflect actual studio workflows and can be consistently supported.
+Quality-control approach
+SHOULD
+Reviews, coordination, approvals.
+Stage-gate reviews; design consistency checks; drawing coordination; consultant integration; client approvals; issue/revision control; constructability and documentation review before release.
+Lead expert
+MUST
+Name/title/contact route.
+Assign a named lead only after leadership responsibilities are finalized and approved for publication.
+Supporting team
+SHOULD
+Show the relevant discipline/project team only after roles and public bios are finalized.
+Featured projects
+MUST
+4–12.
+Select 4–12 verified projects per expertise page from the launch project pool; final mapping to be completed after project metadata is filled.
+Relevant insights/research
+SHOULD
+2–6.
+Suggested: design thinking, workplace experience, planning efficiency, construction documentation, materials, technology and visualization. 
+Proof points
+SHOULD
+Experience, scale, outcomes, certifications.
+Use verified proof only: project count/scale, measurable outcomes, repeat work, certifications or delivery metrics. Omit unsupported claims.
+CTA
+MUST
+Discuss a Project / Contact the Team.
+Discuss a Project / Contact the Team
+Recommended Ashraya expertise pages
+☐ Architecture
+☐ Interior Design
+☐ Urban Design
+☐ Master Planning
+☐ Design Consultancy / Feasibility
+☐ Tendering & Construction Documentation
+☐ 3D Development / Architectural Visualization
+☐ Product / Furniture Design
+☐ Project Management / Construction Management (only if actually offered)
+☐ Brochure / Real-estate Design Communication (if strategically retained)
+11. SECTOR / MARKET PAGE MASTER FORM
+Sector pages answer “Do you understand my type of project/business?” and are especially important for corporate and real-estate clients.
+FIELD / DATA
+PRIORITY
+WHAT TO PROVIDE
+YOUR RESPONSE / FILE REF
+Sector name
+MUST
+Example: Commercial / Workplace / Residential.
+Priority launch sectors: Residential / Housing; Commercial / Office Buildings; Real Estate Development; Township / Urban Development; Hospitality. Add Industrial / Manufacturing only where verified project experience and imagery are available.
+Sector positioning
+MUST
+What makes this sector different?
+Show how Ashraya understands the commercial, operational, human and delivery realities of each project type—not only its visual character.
+Client types
+MUST
+Developer, owner-occupier, operator, investor, etc.
+Developers, investors, owner-occupiers, corporate organizations, private owners and institutions, depending on sector.
+Typical client challenges
+MUST
+4–8.
+Planning efficiency; flexibility; user experience; budget/value; approvals; consultant coordination; phasing; brand/identity; constructability; timeline and long-term adaptability.
+Ashraya approach
+MUST
+How you respond to those challenges.
+Begin with client/business goals and project constraints, define measurable design drivers, test options, coordinate disciplines and document a clear path from concept to execution.
+Sector-specific capabilities
+MUST
+Architecture, interiors, planning, feasibility/design consultancy, visualization, technical documentation, tender coordination and related design communication as relevant to the sector.
+Commercial / operational considerations
+SHOULD
+Efficiency, flexibility, lifecycle, phasing, brand, approvals.
+Efficiency, flexibility, lifecycle value, phasing, workplace/user experience, brand alignment, approvals, leasing/marketability, 
+maintenance and delivery risk.
+Key metrics / KPIs
+SHOULD
+What performance matters in this sector?
+Planning efficiency; area utilization; capacity; flexibility; daylight/comfort; delivery timeline; cost/value; leasing/user outcome; sustainability metrics where measured.
+Featured projects
+MUST
+4–12.
+Use sector-specific selections from the launch pool: Nilkanth Skyline; Swarnbhumi; The Empire; Tithal Farmhouse; Valsad Bungalow; Uttam Bungalow; Casa Ceilo. Final project-to-sector mapping: INPUT REQUIRED.
+Featured expert
+SHOULD
+Assign after leadership roles and sector responsibility are finalized.
+Related research / insights
+SHOULD
+Design thinking, workplace experience, real-estate value, construction knowledge, materials, sustainability and technology.
+CTA
+MUST
+Discuss Your Project / Start a Project
+Potential sector taxonomy
+☐ Corporate / Workplace
+☐ Commercial / Office Buildings
+☐ Residential / Housing
+☐ Hospitality
+☐ Retail
+☐ Institutional / Education
+☐ Healthcare (if experienced)
+☐ Industrial / Manufacturing
+☐ Mixed-Use
+☐ Urban Development / Townships
+☐ Public / Civic
+☐ Real Estate Development
+12. STUDIO / ABOUT CONTENT FORM
+FIELD / DATA
+PRIORITY
+WHAT TO PROVIDE
+YOUR RESPONSE / FILE REF
+About headline
+MUST
+From Vision to Built Reality.
+About overview
+MUST
+150–300 words.
+Ashraya Architects is a multidisciplinary architecture and design practice focused on turning ideas into purposeful, coordinated and buildable outcomes. Our work spans architecture, interiors, commercial and corporate projects, urban design, master planning, visualization, tendering and documentation, and related design communication. We combine design thinking with practical project delivery—studying context, people, business goals and technical requirements before shaping the final solution. The studio is being developed as a corporate, systems-led practice with clear processes, collaborative decision-making and long-term client relationships at its core.
+Detailed firm story
+MUST
+300–800 words.
+Ashraya Architects was founded in 2021 by Priyansh 
+Barvaliya
+ and Meet Lad with a shared ambition to create spaces that are thoughtful, purposeful and meaningful.
+From the beginning, the idea was simple but strong: architecture should do more than look good. It should respond to people, place, function and context while creating long-term value. That belief became the foundation of Ashraya.
+The name “Ashraya” reflects the idea of shelter, belonging and identity. For us, it represents the relationship between people and the spaces they inhabit. Every project is therefore seen not only as a design opportunity, but as a chance to create a stronger connection between purpose, experience and place.
+What began as a focused design practice has steadily evolved into a growing 
+multidisciplinary studio. Over time, the practice has expanded its capabilities across architecture, interiors, commercial and corporate projects, residential developments, visualization, planning, technical documentation, tendering and project consultancy.
+This evolution has been shaped by curiosity, continuous learning and the willingness to improve with every project.
+Each commission has helped us strengthen our understanding of design, technology, materials, execution, coordination and project delivery. As the practice grows, we continue to build stronger systems, deeper technical capability and more collaborative ways of working.
+Our approach is rooted in a balance between creative thinking and practical clarity. We believe meaningful design happens when ideas are supported by strong planning, technical understanding, collaboration and disciplined execution.
+Today, Ashraya Architects is moving toward a more structured, corporate and multidisciplinary practice. Our focus is increasingly on larger, more complex and diverse projects where design thinking can create measurable value for clients, users and the built environment.
+We aim to work with developers, businesses, institutions, entrepreneurs, consultants and industry partners who share an ambition to create better places.
+Our long-term vision is to build Ashraya Architects into a strong, trusted and future-ready design practice and brand—one that is recognized not only for the quality of its projects, but also for its thinking, professionalism, 
+systems and ability to deliver meaningful outcomes.
+We continue to evolve by investing in design excellence, technology, knowledge, collaboration and people.
+The journey that began in 2021 is still in its early chapters. What remains constant is the ambition to keep learning, improving and creating work that stays relevant over time.
+Let’s Design Tomorrow.
+Timeline / milestones
+SHOULD
+Year + milestone + image if available.
+2021 — Ashraya Architects founded by Priyansh Barvaliya and Meet Lad.
+2026 — The practice is operating as a growing multidisciplinary studio across architecture, interiors, urban/master planning, visualization, tendering/documentation and related design services, with a stated ambition to build a structured corporate practice.
+Add project wins, studio expansion and recognitions only when dates and evidence are confirmed.
+Vision / Mission / Purpose
+MUST
+Vision: Build a trusted, design-led corporate practice recognized for thoughtful architecture, multidisciplinary capability, reliable delivery and meaningful long-term value. Mission: Translate client vision into researched, context-responsive and technically resolved design through a disciplined process. Purpose: Improve how people experience spaces and developments by connecting design quality, functionality, responsibility and execution.
+Core values
+MUST
+Clarity; Responsibility; Collaboration; Rigour; Progress; Integrity.
+Design philosophy
+MUST
+Purposeful, contextual and buildable design that balances human experience, planning, performance, 
+commercial realities and long-term value.
+Design principles
+MUST
+Context before form; people and experience; clear planning; performance and responsibility; integrated coordination; detail and constructability; continuous learning.
+What differentiates Ashraya
+MUST
+Proof-based, not adjectives only.
+Multidisciplinary services across scales; concept-to-documentation continuity; strong visualization and communication; execution-oriented thinking; structured corporate systems; client/business-aware design approach.
+Geographic reach
+SHOULD
+Surat / Gujarat base with projects and services extending to wider India depending on project type, scale and scope.
+Practice structure
+SHOULD
+Disciplines/studios.
+Core: Architecture; Interior Design; Urban Design & Master Planning; Tendering & Construction Documentation; 3D Development / Architectural Visualization. Supporting: Design Consultancy / Feasibility; Product / Furniture Design; Real-estate Design Communication.
+Collaborative model
+SHOULD
+How consultants/partners are integrated.
+Ashraya integrates client teams, specialist consultants, vendors and execution partners through defined review stages, coordinated information exchange, approvals and quality checks.
+Corporate facts
+MUST
+Use verified facts from Section 5.
+Founded 2021 | Co-founders: Priyansh Barvaliya and Meet Lad | Head office: Surat, Gujarat, India | Team: 10–15 | Completed projects: 10–12 | Ongoing projects: 10. Verify current team/project counts before publication.
+13. HOW WE WORK / PROJECT DELIVERY PROCESS
+STAGE
+CLIENT INPUTS
+ASHRAYA ACTIVITIES
+OUTPUTS / DELIVERABLES
+REVIEW / APPROVAL
+01 Discover
+Project brief, goals, budget, timeline, site information, stakeholder needs
+Brief, goals, budget, timeline, site
+Project brief / scope summary / information checklist
+Client confirms brief, scope and priorities
+02 Research
+Site data, survey, regulations, market/client references
+Context, regulations, climate, market, precedents
+Context analysis / constraints-opportunities / precedent and regulatory review
+Client reviews research direction
+03 Define
+Confirmed requirements and priorities
+Program, project strategy, design drivers
+Program, project strategy, design drivers, success criteria
+Client approves program/design drivers
+04 Concept
+Feedback on options and priorities
+Options, planning, massing, design direction
+Concept options, planning/massing, initial design direction
+Concept/design-direction approval
+05 Develop
+Approved concept, consultant inputs
+Architecture/interiors/engineering integration
+Developed plans, elevations, materials, integrated discipline inputs
+Design-development sign-off
+06 Visualize
+Material/design preferences and feedback
+3D, material, simulation, presentation
+3D views, material studies, presentation package
+Visual/material approval
+07 Coordinate
+Consultant/authority/vendor information
+Consultants, BIM, authorities, vendors
+Coordinated drawings/models, issue logs, authority/vendor coordination
+Coordination review / issue closure
+08 Document
+Final coordinated design decisions
+Working drawings, schedules, BOQ coordination
+Working drawings, schedules, details, BOQ/specification coordination
+Issue-for-tender/construction approval
+09 Tender / Procurement
+Tender strategy, bidder/vendor preferences, budget
+Tender packages, bid review, value engineering
+Tender package, bid comparisons, clarifications, value-engineering inputs
+Client selects bidder/vendor and approves changes
+10 Construction Support
+Site programme, RFIs, samples, contractor inputs
+Site reviews, RFIs, samples, coordination
+Site-review notes, RFI responses, sample/material reviews, coordination records
+Client/contractor action closure
+11 Quality Review
+Completion status, snag requirements
+Design intent / snag / completion checks
+Design-intent review, snag observations, closure checklist
+Completion/snag sign-off
+12 Handover
+Final contractor/vendor documents
+As-builts / closeout as applicable
+As-builts/closeout set where applicable, handover documentation
+Handover acceptance
+13 Post-Occupancy
+User/client feedback and operational observations
+Feedback / learning / performance review
+Feedback summary, lessons learned, performance review where applicable
+Learning captured for future work
+FIELD / DATA
+PRIORITY
+WHAT TO PROVIDE
+YOUR RESPONSE / FILE REF
+Process exceptions
+SHOULD
+Which stages vary by project/service?
+Not every commission uses every stage. Service scope, procurement route, project stage and client requirements determine the exact sequence and deliverables.
+Decision gates
+SHOULD
+Key client approval points.
+Brief approval; concept approval; design-development approval; material/visual approval; coordinated-document approval; tender/vendor approval; construction sample/change approval; completion/handover approval.
+Communication rhythm
+SHOULD
+Meeting/review/report cadence.
+Recommended: weekly/fortnightly project reviews depending on stage; written minutes/action tracker; milestone presentations; formal approvals at decision gates. 
+Quality assurance
+MUST
+Internal review process.
+Internal stage reviews before client issue; drawing/document checks; interdisciplinary coordination; revision control; approval tracking; site/design-intent review; final closure checks.
+14. PEOPLE / LEADERSHIP CONTENT FORM
+FIELD
+PERSON 1
+PERSON 2
+PERSON 3 / MORE
+Full name
+Priyansh Barvaliya
+Meet Lad
+Designation
+Co-founder & Principal Architect
+Co-founder & Principal Architect
+Professional credentials
+COA / professional registrations: INPUT REQUIRED before publication.
+COA / professional registrations: INPUT REQUIRED before publication.
+Short bio (50–100 words)
+Priyansh Barvaliya is Co-founder and Principal Architect at Ashraya Architects, with 7 years of experience across architectural design, design strategy, commercial and corporate projects, residential development, interiors, master planning, 3D visualization, project coordination and design management. A B.Arch. graduate, he contributes to the practice’s multidisciplinary, design-to-delivery approach and its continued development as a structured, future-ready studio.
+Meet Lad is Co-founder and Principal Architect at Ashraya Architects, with 7 years of experience across architectural design, design strategy, commercial and corporate projects, residential development, interiors, master planning, 3D visualization, project coordination and design management. A B.Arch. graduate, he contributes to the studio’s integrated approach to design, coordination, visualization and project delivery across scales.
+Long bio (150–250 words)
+Priyansh Barvaliya co-founded Ashraya Architects in 2021 and serves as Principal Architect. With 7 years of professional experience and a B.Arch. background, his listed areas of expertise span architectural design, design strategy, commercial and corporate projects, residential development, interior design, master planning, 3D visualization, project coordination and design management. His work within the practice supports Ashraya’s broader ambition to connect design thinking with clear planning, visualization, documentation and execution-oriented coordination. As the studio grows, his role is presented around multidisciplinary project thinking, structured decision-making and the continuous development of a professional, systems-led practice. Final public 
+biography should be updated with verified professional registrations, selected projects, memberships and any awards or speaking/publication activity before launch.
+Meet Lad co-founded Ashraya Architects in 2021 and serves as Principal Architect. With 7 years of professional experience and a B.Arch. background, his listed areas of expertise include architectural design, design strategy, commercial and corporate projects, residential development, interior design, master planning, 3D visualization, project coordination and design management. Within the studio, he contributes to an integrated design process that links concept development with visualization, coordination, documentation and project delivery. His profile should communicate the practice’s emphasis on purposeful, contextual and buildable design while remaining evidence-based. Before publication, this biography should be completed with 
+verified professional registrations, individual project credits, memberships, approved portrait and any awards, publications or speaking activity.
+Years of experience
+7 years
+7 years
+Education
+B.Arch.
+B.Arch.
+Professional memberships
+.
+Areas of expertise
+Architectural Design
+Design Strategy
+Commercial & Corporate Projects
+Residential Development
+Interior Design
+Master Planning
+3D Visualization
+Project Coordination
+Design Management
+Architectural Design
+Design Strategy
+Commercial & Corporate Projects
+Residential Development
+Interior Design
+Master Planning
+3D Visualization
+Project Coordination
+Design Management
+Selected projects
+Awards/publications/speaking
+LinkedIn (optional)
+Portrait file name
+ASSET
+QTY / VARIANTS
+RECOMMENDED CONTENT / SPEC
+STATUS / FILE NAME
+Leadership portraits
+1 per person
+Consistent crop/background/lighting.
+-
+Team portraits
+As needed
+Consistent style.
+-
+Studio culture photography
+15–30
+Design reviews, site visits, materials, models, workshops, team moments.
+-
+15. SUSTAINABILITY & IMPACT CONTENT FORM
+World-class firms increasingly treat environmental performance as a visible practice capability rather than a generic value statement.
+FIELD / DATA
+PRIORITY
+WHAT TO PROVIDE
+YOUR RESPONSE / FILE REF
+Sustainability position
+MUST
+What does responsible design mean to Ashraya?
+Responsible design means reducing unnecessary resource use while improving comfort, usability, longevity and contextual fit. Sustainability claims should be project-specific and evidence-based wherever possible.
+Climate / passive design approach
+MUST
+Prioritize orientation, daylight, shading, natural ventilation where appropriate, heat-gain control, landscape response and climate-sensitive planning before relying on active systems.
+Energy approach
+SHOULD
+Reduce demand through passive decisions and efficient planning; coordinate efficient building systems and lighting where scope allows; publish measured energy claims only when verified.
+Water approach
+SHOULD
+Support water-efficient fixtures, sensible landscape demand, rainwater/reuse strategies and site-specific water management where applicable.
+Materials / embodied carbon approach
+SHOULD
+Favor durable, appropriate and locally practical materials; reduce unnecessary material intensity; consider lifecycle, maintenance, sourcing and embodied impact when project data allows.
+Indoor environmental quality
+SHOULD
+Prioritize daylight, views, ventilation/air quality, thermal comfort, acoustics and user well-being as relevant to project type.
+Landscape / ecology approach
+SHOULD
+Use landscape to improve microclimate, shade, permeability, biodiversity and user experience while responding to local maintenance and water realities.
+Adaptive reuse / circularity
+OPTIONAL
+Phase 2 capability/content: retain and reuse existing assets where project conditions support it; 
+document only verified examples.
+Certifications capability
+OPTIONAL
+LEED/GRIHA/IGBC/etc. only if capability exists.
+Do not publish LEED / GRIHA / IGBC capability unless there is verified project experience, accredited personnel or a clearly defined consultant-led delivery capability.
+Sustainability tools / simulation
+OPTIONAL
+Not confirmed; omit software/simulation claims from Phase 1 until actual tools and workflows are verified.
+Internal targets / commitments
+OPTIONAL
+Only publish realistic commitments.
+Do not publish numeric commitments until a measurable internal baseline and tracking method are defined.
+Featured sustainable projects
+SHOULD
+Select only projects with documented sustainable strategies or measurable outcomes; otherwise keep sustainability within the general design approach rather than creating unsupported project claims.
+Measured project outcomes
+SHOULD
+Verified numbers.
+No verified project metrics provided; do not publish numerical performance claims until evidence is available.
+Future impact reporting plan
+OPTIONAL
+Annual/biannual report.
+Phase 2: consider annual/biannual impact reporting only after internal metrics, ownership and a repeatable tracking method are defined.
+16. TECHNOLOGY, BIM & INNOVATION CONTENT FORM
+FIELD / DATA
+PRIORITY
+WHAT TO PROVIDE
+YOUR RESPONSE / FILE REF
+Technology philosophy
+SHOULD
+How tech improves design/delivery rather than list of software.
+Use technology to improve design clarity, coordination, decision-making and communication—not as a substitute for design judgment.
+BIM workflow
+SHOULD
+Stages, coordination, LOD if relevant.
+Do not publish a dedicated BIM capability until the actual 
+BIM software, coordination scope, model uses and LOD/workflow are confirmed. If BIM is not part of the regular delivery process, omit this item from the public website.
+3D visualization workflow
+SHOULD
+3D development and architectural visualization are established service capabilities. Use iterative 3D studies to test form, space, materials and presentation, then produce client/marketing-quality renders as appropriate.
+Computational / parametric capability
+OPTIONAL
+Phase 2 / publish only if a real computational or parametric workflow is in active use and can be demonstrated through a project or process example.
+AI use cases
+OPTIONAL
+Only credible, responsible applications.
+Responsible use for ideation, visual exploration, content/workflow support and repetitive task assistance where accuracy and confidentiality can be controlled. Do not present AI output as verified project data.
+VR/AR/immersive review
+OPTIONAL
+Phase 2 / publish only if VR/AR is actively used in client or design review workflows.
+Performance simulation
+OPTIONAL
+Phase 2 / publish only if actual performance-simulation capability, tools and outputs can be demonstrated.
+Digital collaboration
+SHOULD
+CDE/review/issue tracking if used.
+Use structured digital file sharing, review comments, issue tracking, revision control and consultant coordination. Publish platform names only if they are consistently used and approved for public reference.
+Data / automation
+OPTIONAL
+Phase 2: automate repetitive reporting, asset management, lead tracking and selected design/document workflows where reliable.
+Technology stack publication list
+OPTIONAL
+Software logos only if useful/allowed.
+INPUT REQUIRED: confirm the actual studio software stack. Publish software logos/names only when they represent current, routinely used workflows.
+Innovation case studies
+OPTIONAL
+Phase 2: publish only real examples showing how technology improved design, coordination, speed or quality.
+17. INSIGHTS / RESEARCH / PUBLICATIONS CONTENT SYSTEM
+CONTENT TYPE
+PURPOSE
+FIELDS REQUIRED
+LAUNCH VOLUME
+Insight article
+Thought leadership / SEO
+Title, author, date, summary, body, images, tags, related work
+3–6
+Research note / report
+Evidence-based authority
+Question, method, findings, implications, PDF, authors
+0–3
+Design thinking case
+Show process
+Challenge, diagrams, decisions, result
+2–4
+News
+Firm activity
+Headline, date, body, project/person links, image
+3–10
+Publication / book
+Archive
+Title, year, publisher, summary, cover, link/PDF where licensed
+As available
+Event / lecture
+Authority
+Event, speaker, date, venue, topic, link
+As available
+FIELD / DATA
+PRIORITY
+WHAT TO PROVIDE
+YOUR RESPONSE / FILE REF
+Insight categories
+MUST
+Architecture, workplace, real estate, sustainability, construction, materials, technology, etc.
+Architecture; Design Thinking; Workplace / Corporate; Commercial Real Estate; Interiors; Urban Design; Construction Knowledge; Materials; Sustainability; Technology / Visualization; Behind the Scenes; Client / Project Stories; Industry News.
+Author profiles
+SHOULD
+Map articles to people profiles.
+Map each article to leadership/team authors once people profiles are finalized.
+Editorial owner
+MUST
+Who approves/publishes?
+Leadership approval + designated Marketing/Content owner. INPUT REQUIRED: nominate one final publishing owner 
+with authority to approve website/news content.
+Publishing cadence
+SHOULD
+Monthly/quarterly.
+Recommended launch target: 2 insight/news posts per month, with at least one substantial design-thinking article monthly.
+Newsletter plan
+OPTIONAL
+Ashraya Insights, audience and frequency.
+Phase 2: “Ashraya Insights” for clients, developers, consultants and industry network; monthly or quarterly digest.
+18. CLIENTS, TESTIMONIALS & COLLABORATION PROOF
+CLIENT / PARTNER
+TYPE
+PROJECT(S)
+LOGO PERMISSION
+TESTIMONIAL PERMISSION
+PUBLIC NAME?
+TESTIMONIAL
+NAME
+DESIGNATION
+ORGANIZATION
+PROJECT
+APPROVED?
+Testimonial guidance
+Prefer specific testimonials that describe the problem, collaboration experience and outcome. Avoid generic praise. Obtain written approval before publishing names, logos or confidential project details.
+19. AWARDS, MEDIA, PRESS & RECOGNITION
+TYPE
+TITLE / AWARD / FEATURE
+ORGANIZATION / PUBLICATION
+PROJECT / PERSON
+YEAR
+URL / FILE
+ASSET
+QTY / VARIANTS
+RECOMMENDED CONTENT / SPEC
+STATUS / FILE NAME
+Press kit firm profile
+1
+Approved 100/250/500-word firm descriptions.
+Leadership bios
+1 per leader
+Approved public versions.
+Logo pack
+1
+SVG/PNG light/dark.
+Approved project images
+10–20
+Press-ready, credited.
+Fact sheet
+1
+Verified corporate facts.
+20. CAREERS / EMPLOYER BRAND CONTENT FORM
+FIELD / DATA
+PRIORITY
+WHAT TO PROVIDE
+YOUR RESPONSE / FILE REF
+Careers headline
+MUST
+Design. Think. Create. Grow With Us.
+Employer proposition
+MUST
+Why should a talented person join Ashraya?
+Join a studio where thoughtful design, hands-on learning and real project responsibility come together. Ashraya Architects aims to give designers exposure from concept and visualization through documentation, coordination and site execution.
+Studio culture
+MUST
+Collaborative, inclusive, curious and growth-focused. We value design discussion, clear communication, responsibility, experimentation, mentorship and practical learning.
+Learning / mentorship
+SHOULD
+Regular guidance through design reviews, drawing/document feedback, project discussions and learning from senior/project leads.
+Site / execution exposure
+SHOULD
+Team members are encouraged to understand how design decisions translate on site through project visits, coordination, materials and execution reviews.
+Career growth
+SHOULD
+Growth through increasing project responsibility, stronger technical/design capability, client/consultant exposure and leadership opportunities based on performance.
+Work environment
+SHOULD
+Professional, collaborative studio environment that balances design quality, accountability, learning and sustainable working practices.
+Benefits / compensation philosophy
+OPTIONAL
+Publish only what you can consistently support.
+Professional growth, real project/site exposure and a collaborative studio environment can be communicated now. Publish specific compensation, leave, insurance, work-life or other benefit claims only after HR confirms they are consistently supported.
+Internship philosophy
+SHOULD
+Internships are learning-focused and should expose students to real design thinking, drawings, visualization, models/materials and project workflows—not only repetitive production tasks.
+Application process
+MUST
+Steps and response expectations.
+1) Select role. 2) Submit CV + portfolio. 3) Initial screening. 4) Interview / design discussion as applicable. 5) Final selection and offer. INPUT REQUIRED: confirm response timeline and number of interview stages.
+Portfolio requirements
+MUST
+PDF/link/file size etc.
+PDF or portfolio link showing selected academic/professional work, role/contribution and strongest design/technical examples. INPUT REQUIRED: confirm maximum upload/file size.
+CV requirements
+MUST
+Current CV with contact details, education, experience, software/technical skills and project responsibilities.
+Recruitment privacy / data retention
+SHOULD
+Coordinate with legal/HR.
+INPUT REQUIRED: legal/HR to define recruitment data access, retention and deletion practice before launch.
+Job vacancy template
+FIELD / DATA
+PRIORITY
+WHAT TO PROVIDE
+YOUR RESPONSE / FILE REF
+Job title
+MUST
+Open roles previously defined: Junior Architect; Senior Architect; Junior Interior Designer; Interior Designer; Architectural Intern. Create one job record per role.
+Department
+MUST
+Architecture / Interior Design / Internship, depending on role.
+Location
+MUST
+Surat, Gujarat (as used in current recruitment communication).
+Employment type
+MUST
+Full-time for listed permanent roles; Internship for Architectural Intern. Do not publish freelance/contract options unless they are intentionally open.
+Experience
+MUST
+Junior Architect: 0–2 years. Senior Architect / Project Lead: 4–7 years. Architectural Intern: student/fresher internship. INPUT REQUIRED: confirm experience ranges for Junior Interior Designer and Interior Designer.
+Role summary
+MUST
+Role-specific summary focused on design development, documentation, visualization, coordination and project delivery according to seniority.
+Responsibilities
+MUST
+Develop concepts/drawings; 3D/visualization as relevant; technical documentation; consultant coordination; presentations; site/project support; quality and deadline responsibility according to role level.
+Requirements
+MUST
+Relevant architecture/interior education; strong design thinking; communication; drawing/detailing ability; responsibility; collaborative mindset; portfolio demonstrating suitable work.
+Software / technical skills
+SHOULD
+INPUT REQUIRED per role: publish only software/technical skills that reflect the actual studio workflow and minimum hiring requirement.
+Portfolio expectations
+MUST
+Concise portfolio showing best projects, process, drawings/visuals and individual contribution.
+How to apply
+MUST
+Send CV + Portfolio to ashrayaarchitect@gmail.com or use website application form.
+Application close date
+OPTIONAL
+Keep open-ended unless a vacancy has a defined closing date.
+21. CONTACT + START A PROJECT FORMS
+A. Contact routing
+ENQUIRY TYPE
+EMAIL / OWNER
+REQUIRED FIELDS
+AUTOREPLY?
+SLA / RESPONSE OWNER
+New Project
+Leadership / Business Development — routing email pending. Recommended: use one central project-enquiry mailbox.
+Name, company, phone/email, project summary
+Yes
+Recommended: acknowledge within 1 business day; final SLA to be confirmed.
+General Enquiry
+Admin / Leadership — routing email pending. May use the same central enquiry mailbox.
+Name, contact, message
+Yes
+Recommended: acknowledge within 1 business day; final SLA to be confirmed.
+Careers
+HR / careers form — current recruitment email: ashrayaarchitect@gmail.com
+Route to careers form
+Yes
+Auto-reply immediately; shortlisted-candidate response timeline to be confirmed.
+Internships
+HR / internship form — current recruitment email: ashrayaarchitect@gmail.com
+Route to internship form
+Yes
+Auto-reply immediately; shortlisted-candidate response timeline to be confirmed.
+Vendors / Manufacturers
+Admin / Procurement — owner/email pending; can route through the central enquiry mailbox at launch.
+Company, category, catalogue link
+Yes
+Recommended: acknowledge within 1 business day; final SLA to be confirmed.
+Consultants / Collaborations
+Leadership / Project Team — owner/email pending; can route through the central enquiry mailbox at launch.
+Discipline, profile, contact
+Yes
+Recommended: acknowledge within 1 business day; final SLA to be confirmed.
+Media / Publications
+Leadership / Marketing — owner/email pending; can route through the central enquiry mailbox at launch.
+Publication, deadline, request
+Yes
+Recommended: acknowledge within 1 business day; final SLA to be confirmed.
+B. Start a Project — qualification fields
+FIELD / DATA
+PRIORITY
+WHAT TO PROVIDE
+YOUR RESPONSE / FILE REF
+Full name
+MUST
+Company / organization
+MUST
+Designation
+SHOULD
+Email
+MUST
+Phone
+MUST
+Project location
+MUST
+Project type / sector
+MUST
+Approx. site / built-up area
+SHOULD
+Current project stage
+MUST
+Idea / land acquired / concept / approvals / under construction / renovation.
+Required services
+MUST
+Multi-select.
+Target timeline
+SHOULD
+Budget / investment band
+OPTIONAL
+Use only if strategically useful.
+Project brief
+MUST
+Textarea.
+Upload files
+SHOULD
+Site plan, brief, drawings; define file limits.
+How did you hear about us?
+SHOULD
+Consent / privacy checkbox
+MUST
+22. CORPORATE DOWNLOADS / RESOURCE CENTRE
+DOCUMENT
+PURPOSE
+FORMAT
+OWNER
+PUBLIC / GATED
+STATUS
+Company Profile
+General credentials
+PDF
+Marketing/Leadership
+Public
+Capability Statement
+Corporate/developer prequalification
+PDF
+Marketing/Leadership
+Gated / on request
+Selected Projects Portfolio
+Business development
+PDF
+Marketing/Leadership
+Public
+Architecture Portfolio
+Service-specific
+PDF
+Marketing/Leadership
+Public
+Interiors Portfolio
+Service-specific
+PDF
+Marketing/Leadership
+Public
+Corporate / Workplace Portfolio
+Sector-specific
+PDF
+Marketing/Leadership
+Public
+Sustainability Statement
+ESG / responsible design
+PDF
+Marketing/Leadership
+Gated / on request
+Credentials / Prequalification Pack
+Tenders/corporates
+PDF
+Marketing/Leadership
+Gated / on request
+Press Kit
+Media
+ZIP/PDF
+Marketing
+Public
+23. FAQ CONTENT FORM
+CATEGORY
+QUESTION
+APPROVED ANSWER
+OWNER
+Clients
+Which locations do you work in?
+Ashraya Architects is based in Surat, Gujarat and undertakes projects across Gujarat and selectively across wider India depending on project type, scale, scope and delivery requirements.
+Leadership/Marketing
+Clients
+What project types and scales do you undertake?
+We work across residential/housing, commercial and office projects, real-estate development, township/urban development, hospitality, interiors and related design services. Project scale is assessed by scope, complexity, location and fit. Industrial work should be published only where verified project experience is available.
+Leadership/Marketing
+Clients
+How does a project engagement begin?
+It begins with a discovery conversation to understand the brief, site, goals, budget, timeline, project stage and required services. We then define scope, deliverables, process and commercial terms before starting design.
+Leadership/Marketing
+Clients
+What information do you need from us?
+A basic project brief, location/site information, approximate area, current project stage, desired timeline, budget/investment expectations where relevant, required services and any 
+available drawings or reference material.
+Leadership/Marketing
+Clients
+Do you provide execution/site services?
+We provide design coordination and construction/site support as defined in each project appointment. Full turnkey execution or construction management should not be advertised as a standard service until leadership formally confirms the scope.
+Leadership/Marketing
+Clients
+How are fees structured?
+Professional fees depend on project type, scope, scale, complexity, location, deliverables and level of site involvement. A tailored proposal is issued after understanding the brief.
+Leadership/Marketing
+Careers
+How do I apply?
+Submit your CV and portfolio through the Careers page or email ashrayaarchitect@gmail.com. Shortlisted candidates will be contacted for the next stage.
+HR
+Careers
+Do you offer internships?
+Yes, Architectural Intern has been included in current hiring plans. Submit a concise CV and portfolio through the Careers/Internship application route.
+HR
+Vendors
+How can a supplier introduce products?
+Use the Vendor / Manufacturer enquiry route with company details, product category, catalogue/link, contact person and relevant certifications/technical information.
+Leadership/Marketing
+Media
+Who should press enquiries contact?
+Use the Media / Publications enquiry form. Until a dedicated media contact is nominated, route requests to the central firm/leadership contact.
+Leadership/Marketing
+24. SEO & CONTENT METADATA FORM
+PAGE
+PRIMARY USER INTENT
+META TITLE
+META DESCRIPTION
+H1
+OG IMAGE
+CANONICAL / NOTES
+Home
+Discover the practice, work and capabilities
+Ashraya Architects | Architecture & Design Practice
+Ashraya Architects is a multidisciplinary architecture and design practice working across architecture, interiors, commercial projects, urban design and visualization.
+Ashraya Architects
+Homepage hero / flagship project
+Self-canonical; final URL slug by developer.
+About
+Understand the firm, philosophy, values and process
+About Ashraya Architects | Studio & Design Philosophy
+Learn about Ashraya Architects, our multidisciplinary design approach, values, process and ambition to connect design thinking with reliable project delivery.
+About Ashraya Architects
+Studio/team image
+Self-canonical; final URL slug by developer.
+Architecture
+Evaluate architecture capability
+Architecture Services | Ashraya Architects
+Explore Ashraya Architects’ architecture approach from research and concept through design development, coordination, documentation and execution support.
+Architecture
+Architecture project image
+Self-canonical; final URL slug by developer.
+Interior Design
+Evaluate interior design capability
+Interior Design | Ashraya Architects
+Explore interior design by Ashraya Architects, combining space planning, materials, detailing, visualization and execution-oriented documentation.
+Interior Design
+Interior project image
+Self-canonical; final URL slug by developer.
+Commercial
+Find commercial building expertise
+Commercial Architecture | Ashraya Architects
+Commercial architecture focused on planning efficiency, user experience, 
+design quality, coordination and long-term value for developers and businesses.
+Commercial Architecture
+Commercial project image
+Self-canonical; final URL slug by developer.
+Corporate / Workplace
+Find corporate/workplace design expertise
+Corporate & Workplace Design | Ashraya Architects
+Corporate and workplace design by Ashraya Architects, balancing people, brand, flexibility, planning efficiency, coordination and delivery.
+Corporate / Workplace
+Workplace project image
+Self-canonical; final URL slug by developer.
+Projects
+Browse portfolio and project proof
+Projects | Ashraya Architects
+Browse selected Ashraya Architects projects across architecture, interiors, commercial, corporate, residential, urban design and related disciplines.
+Selected Work
+Project archive image
+Self-canonical; final URL slug by developer.
+Insights
+Read design thinking and knowledge content
+Insights | Ashraya Architects
+Design thinking, construction knowledge, workplace, real estate, materials, sustainability, technology and project stories from Ashraya Architects.
+Insights
+Editorial thumbnail
+Self-canonical; final URL slug by developer.
+Careers
+Explore culture and apply
+Careers | Ashraya Architects
+Explore careers at Ashraya Architects. Discover our studio culture, learning opportunities, project exposure, open roles and internship opportunities.
+Design. Think. Create. Grow With Us.
+Team/studio image
+Self-canonical; final URL slug by developer.
+Contact
+Contact the firm
+Contact Ashraya Architects | 
+Start a Conversation
+Contact Ashraya Architects for project 
+enquiries, collaborations, careers, vendors and media requests.
+Contact Ashraya Architects
+Brand/studio image
+Self-canonical; 
+final URL slug by developer.
+SEO rules for developer/content team
+☐ Every indexable page has one clear H1.
+☐ Every page has unique title/meta description.
+☐ Project images receive descriptive alt text where appropriate.
+☐ Do not create thin/spammy city-keyword pages.
+☐ Use structured internal links between sectors, expertise, projects, people and insights.
+☐ Generate XML sitemap, robots.txt and canonical tags.
+☐ Implement Organization/LocalBusiness/Article/JobPosting/Breadcrumb schema where appropriate.
+25. MASTER MEDIA & ASSET INVENTORY
+ASSET CATEGORY
+REQUIRED FORMAT
+MINIMUM QUALITY / NOTES
+STORAGE FOLDER / LINK
+OWNER
+STATUS
+Logos
+SVG, PNG
+Vector master + dark/light variants
+Marketing/Project Team
+To audit before launch
+Project photography
+JPG/WebP source
+Original high-res; keep photographer credits
+Marketing/Project Team
+To audit before launch
+Rendered images
+JPG/PNG source
+High-res, clean, no AI watermark
+Marketing/Project Team
+To audit before launch
+Drawings / diagrams
+SVG/PDF/PNG
+Simplified web versions
+Marketing/Project Team
+To audit before launch
+Videos
+MP4/WebM
+Optimized; subtitle/captions if speech
+Marketing/Project Team
+To audit before launch
+Team portraits
+JPG
+Consistent visual style
+Marketing/Project Team
+To audit before launch
+Culture photography
+JPG
+Real working environment
+Marketing/Project Team
+To audit before launch
+Client logos
+SVG/PNG
+Permission confirmed
+Marketing/Project Team
+To audit before launch
+Award/media logos
+SVG/PNG
+Usage rights checked
+Marketing/Project Team
+To audit before launch
+Download PDFs
+PDF
+Optimized file size; current version only
+Marketing/Project Team
+To audit before launch
+26. COPYRIGHT, CREDITS, CONFIDENTIALITY & APPROVALS
+ITEM
+QUESTION / CHECK
+OWNER
+STATUS / NOTES
+Project images
+Do we own or have web publication rights?
+Leadership/Marketing/Admin
+Photography
+Is photographer credit defined?
+Leadership/Marketing/Admin
+Client names/logos
+Do we have approval?
+Leadership/Marketing/Admin
+Confidential projects
+What public-safe wording/images are permitted?
+Leadership/Marketing/Admin
+Consultant credits
+Are names correct and approved?
+Leadership/Marketing/Admin
+Awards/media
+Can logos/covers be reproduced?
+Leadership/Marketing/Admin
+Drawings
+Remove confidential dimensions/details if needed?
+Leadership/Marketing/Admin
+Personal data
+Do people consent to bios/portraits?
+Leadership/Marketing/Admin
+Testimonials
+Written publication approval received?
+Leadership/Marketing/Admin
+AI-generated images
+Clearly review rights, accuracy and disclosure policy.
+Leadership/Marketing/Admin
+27. UX / VISUAL DIRECTION FOR WEBSITE DEVELOPER
+This section translates the HCP-inspired direction into implementation requirements without copying HCP’s proprietary design.
+AREA
+DIRECTION
+DEVELOPER / DESIGNER NOTES
+Overall character
+Minimal, architectural, calm, premium, content-first.
+Adopt as core website direction; validate in UI prototypes and mobile QA.
+Whitespace
+Generous; avoid dense card grids everywhere.
+Adopt as core website direction; validate in UI prototypes and mobile QA.
+Typography
+Strong editorial hierarchy; highly readable body text.
+Adopt as core website direction; validate in UI prototypes and mobile QA.
+Color
+Restrained brand palette; architecture imagery carries visual richness.
+Adopt as core website direction; validate in UI prototypes and mobile QA.
+Animation
+Subtle transitions only; no distracting gimmicks.
+Adopt as core website direction; validate in UI prototypes and mobile QA.
+Project imagery
+Large, edge-to-edge opportunities; preserve aspect ratios.
+Adopt as core website direction; validate in UI prototypes and mobile QA.
+Navigation
+Simple primary nav; deeper content through structured mega/dropdown if needed.
+Adopt as core website direction; validate in UI prototypes and mobile QA.
+Mobile
+Design mobile-first states intentionally, not automatic stacking only.
+Adopt as core website direction; validate in UI prototypes and mobile QA.
+Accessibility
+Keyboard focus, contrast, readable type, semantic headings, alt text.
+Adopt as core website direction; validate in UI prototypes and mobile QA.
+Performance
+Responsive images, lazy loading, modern formats, video optimization.
+Adopt as core website direction; validate in UI prototypes and mobile QA.
+Search/filter
+Fast project filtering; clear taxonomy and reset states.
+Adopt as core website direction; validate in UI prototypes and mobile QA.
+CMS
+Editors must manage projects, people, insights, jobs, awards without developer dependency.
+Adopt as core website direction; validate in UI prototypes and mobile QA.
+28. CMS / DATABASE CONTENT TYPES FOR DEVELOPER
+CONTENT TYPE
+CORE FIELDS
+RELATIONSHIPS
+Project
+Title, slug, location, client, year, status, sector, services, story, metrics, gallery, credits
+Expertise, sector, people, insights, awards
+Expertise
+Name, proposition, overview, sub-services, process, lead
+Projects, people, insights, sectors
+Sector
+Name, overview, client challenges, approach, metrics
+Projects, expertise, people, insights
+Person
+Name, role, bio, credentials, portrait
+Projects, expertise, insights
+Insight
+Title, type, author, date, body, media, tags
+Projects, sectors, expertise, people
+News
+Title, date, summary, body, media
+Projects, people
+Award
+Name, organization, year
+Project/person
+Job
+Title, location, type, description, requirements, status
+Department/application form
+Client/Testimonial
+Client, quote, attribution, permissions
+Projects/sectors
+Download
+Title, file, version, access rule
+Expertise/sector/contact CTA
+29. ANALYTICS, LEAD TRACKING & MEASUREMENT
+EVENT / KPI
+WHY TRACK
+TARGET / BENCHMARK
+TOOL / IMPLEMENTATION
+Qualified project enquiries
+Primary business outcome
+Set the final monthly target before launch. For the first 90 days, establish a baseline for qualified enquiries, then set 
+quarterly targets based on lead quality, conversion and project fit.
+GA4 + Search Console + form/CRM or lead sheet; developer to implement event tracking.
+Start-a-Project form completion rate
+Conversion health
+Establish baseline after launch; optimize form friction and lead quality.
+GA4 + Search Console + form/CRM or lead sheet; developer to implement event tracking.
+Contact clicks / calls / WhatsApp
+Intent
+Track monthly trend and source attribution.
+GA4 + Search Console + form/CRM or lead sheet; developer to implement event tracking.
+Portfolio / profile downloads
+Business-development interest
+Track as high-intent business-development action.
+GA4 + Search Console + form/CRM or lead sheet; developer to implement event tracking.
+Project page engagement
+Portfolio relevance
+Track engaged sessions, scroll depth and related-project clicks.
+GA4 + Search Console + form/CRM or lead sheet; developer to implement event tracking.
+Expertise page engagement
+Service interest
+Track engaged sessions and Start-a-Project CTA clicks.
+GA4 + Search Console + form/CRM or lead sheet; developer to implement event tracking.
+Sector page engagement
+Market interest
+Track engaged sessions and CTA conversion.
+GA4 + Search Console + form/CRM or lead sheet; developer to implement event tracking.
+Careers applications
+Recruitment
+Track completed applications by role/source.
+GA4 + Search Console + form/CRM or lead sheet; developer to implement event tracking.
+Search queries / filters used
+Content discovery
+Track top filters/search terms to improve taxonomy/content.
+GA4 + Search Console + form/CRM or lead sheet; developer to implement event tracking.
+Organic search traffic
+Authority / SEO
+Establish 90-day baseline; target sustained growth in relevant non-branded search.
+GA4 + Search Console + form/CRM or lead sheet; developer to implement event tracking.
+Page speed / Core Web Vitals
+Experience / SEO
+Meet current Core Web Vitals / good user-experience thresholds.
+GA4 + Search Console + form/CRM or lead sheet; developer to implement event tracking.
+Top referral sources
+Marketing attribution
+Track Google, LinkedIn, Instagram, direct, referrals and partner sources.
+GA4 + Search Console + form/CRM or lead sheet; developer to implement event tracking.
+30. FINAL DEVELOPER HANDOVER CHECKLIST
+☐ Final sitemap approved.
+☐ All launch pages have approved copy.
+☐ All featured projects have complete metadata and galleries.
+☐ Every image has file name, credit and publication rights status.
+☐ Service and sector taxonomies are frozen.
+☐ People bios and portraits approved.
+☐ Contact routing emails/owners confirmed.
+☐ Start-a-Project form fields and notifications approved.
+☐ Downloads are final and version-controlled.
+☐ Meta titles/descriptions and social images are supplied or assigned to SEO team.
+☐ Privacy Policy / Terms / Cookie text supplied by legal adviser as applicable.
+☐ CMS fields and relationships approved.
+☐ Mobile layouts reviewed for all key templates.
+☐ Performance requirements agreed.
+☐ Analytics events and conversion tracking agreed.
+☐ 301 redirects prepared if replacing an existing website.
+☐ Staging website will be content-QA’d before launch.
+☐ Final backup/export plan confirmed.
+31. PAGE-BY-PAGE CONTENT STATUS TRACKER
+PAGE / TEMPLATE
+OWNER
+COPY
+IMAGES
+SEO
+APPROVED
+DEV STATUS
+NOTES
+Home
+Marketing/Leadership
+☐
+☐
+☐
+☐
+First-pass content direction prepared. Final copy/asset/SEO approval depends on inputs marked 
+Work / Projects
+Project/Marketing/Leadership
+☐
+☐
+☐
+☐
+First-pass content direction prepared. Final copy/asset/SEO approval depends on inputs marked.
+Project Template
+Project/Marketing/Leadership
+☐
+☐
+☐
+☐
+First-pass content direction prepared. Final copy/asset/SEO approval depends on inputs marked 
+Architecture
+Project/Marketing/Leadership
+☐
+☐
+☐
+☐
+First-pass content direction 
+prepared. Final copy/asset/SEO approval depends on inputs marked 
+Interior Design
+Project/Marketing/Leadership
+☐
+☐
+☐
+☐
+First-pass content direction prepared. Final copy/asset/SEO approval depends on inputs marked 
+Urban Design
+Project/Marketing/Leadership
+☐
+☐
+☐
+☐
+First-pass content direction prepared. Final copy/asset/SEO approval depends on inputs marked 
+Master Planning
+Project/Marketing/Leadership
+☐
+☐
+☐
+☐
+First-pass content direction prepared. Final copy/asset/SEO approval depends on inputs marked 
+Other Expertise
+Project/Marketing/Leadership
+☐
+☐
+☐
+☐
+First-pass content direction prepared. Final copy/asset/SEO approval depends on inputs marked 
+Corporate / Workplace
+Project/Marketing/Leadership
+☐
+☐
+☐
+☐
+First-pass content direction prepared. Final copy/asset/SEO approval depends on inputs marked 
+Commercial
+Project/Marketing/Leadership
+☐
+☐
+☐
+☐
+First-pass content direction prepared. Final copy/asset/SEO approval depends on inputs marked 
+Residential
+Project/Marketing/Leadership
+☐
+☐
+☐
+☐
+First-pass content direction prepared. Final copy/asset/SEO approval depends on inputs marked 
+Other Sectors
+Project/Marketing/Leadership
+☐
+☐
+☐
+☐
+First-pass content direction prepared. Final copy/asset/SEO approval depends on inputs marked 
+About / Studio
+Marketing/Leadership
+☐
+☐
+☐
+☐
+First-pass content direction prepared. Final copy/asset/SEO approval depends on inputs marked 
+Process
+Marketing/Leadership
+☐
+☐
+☐
+☐
+First-pass content direction prepared. Final copy/asset/SEO approval depends on inputs marked 
+People
+HR/Leadership
+☐
+☐
+☐
+☐
+First-pass content direction prepared. Final copy/asset/SEO approval depends on inputs marked 
+Sustainability
+Marketing/Leadership
+☐
+☐
+☐
+☐
+First-pass content direction prepared. Final copy/asset/SEO approval depends on inputs marked 
+Technology / Innovation
+Marketing/Leadership
+☐
+☐
+☐
+☐
+First-pass content direction prepared. Final copy/asset/SEO approval 
+depends on inputs marked 
+Insights
+Marketing/Leadership
+☐
+☐
+☐
+☐
+First-pass content direction prepared. Final copy/asset/SEO approval depends on inputs marked 
+News
+Marketing/Leadership
+☐
+☐
+☐
+☐
+First-pass content direction prepared. Final copy/asset/SEO approval depends on inputs marked 
+Clients / Recognition
+Marketing/Leadership
+☐
+☐
+☐
+☐
+First-pass content direction prepared. Final copy/asset/SEO approval depends on inputs marked 
+Careers
+HR/Leadership
+☐
+☐
+☐
+☐
+First-pass content direction prepared. Final copy/asset/SEO approval depends on inputs marked 
+Contact
+Marketing/Leadership
+☐
+☐
+☐
+☐
+First-pass content direction prepared. Final copy/asset/SEO approval depends on inputs marked 
+Start a Project
+Project/Marketing/Leadership
+☐
+☐
+☐
+☐
+First-pass content direction prepared. Final copy/asset/SEO approval depends on inputs marked 
+Downloads / Resources
+Marketing/Leadership
+☐
+☐
+☐
+☐
+First-pass content direction 
+prepared. Final copy/asset/SEO approval depends on inputs marked 
+FAQ
+Marketing/Leadership
+☐
+☐
+☐
+☐
+First-pass content direction prepared. Final copy/asset/SEO approval depends on inputs marked 
+Privacy / Legal
+Admin/Legal
+☐
+☐
+☐
+☐
+First-pass content direction prepared. Final copy/asset/SEO approval depends on inputs marked 
+32. RECOMMENDED LAUNCH PHASING
+PHASE
+INCLUDE
+WHY
+PHASE 1 — Corporate Launch
+Home, Work, 8–15 strongest projects, core Expertise, key Sectors, Studio, Process, People, Careers, Contact, Start a Project, basic Insights, legal/SEO.
+Launch a complete, credible corporate site without waiting for every future content idea.
+PHASE 2 — Authority
+More case studies, sustainability, technology/innovation, research reports, richer people profiles, awards/media, downloadable credentials.
+Build trust and thought leadership.
+PHASE 3 — Growth Platform
+Advanced filters/map, newsletter, gated resources, multilingual, richer analytics/personalization, interactive diagrams/data.
+Scale lead generation and brand authority.
+33. RESEARCH NOTES / BENCHMARK REFERENCES
+The content architecture in this workbook was informed by a current review of HCP and leading global practices. These links are for benchmarking and should not be copied verbatim or visually replicated.
+FIRM / PAGE
+URL
+WHAT TO BENCHMARK
+HCP Design, Planning and Management
+https://hcp.co.in/
+Minimal project-first architecture practice reference; research/publications/contact routing.
+Gensler — Services
+https://www.gensler.com/services
+Deep services architecture and business/value-oriented capability communication.
+Gensler — Careers
+https://www.gensler.com/careers
+Employer brand, professional development, benefits, candidate journey.
+SOM — Ideas
+https://www.som.com/ideas/
+Research + innovation + exhibitions + publications ecosystem.
+HOK — Architecture
+https://www.hok.com/projects/discipline/architecture/
+Excellent cross-linking of discipline positioning, leadership, research, projects and news.
+HOK — Ideas
+https://www.hok.com/ideas/
+Market/discipline-filtered thought leadership.
+OMA — Projects
+https://www.oma.com/projects
+Project archive with filters by status, typology and program; list/map views.
+Perkins&Will — Research
+https://perkinswill.com/research/
+Research structured around areas of inquiry and design innovation.
+Perkins&Will — Work
+https://perkinswill.com/work/
+Selected work / portfolio presentation.
+34. CONTENT WRITING RULES FOR THE FINAL WEBSITE
+☐ Lead with specific facts and client/design outcomes, not generic adjectives.
+☐ Use short paragraphs and strong headings; architecture imagery should have room to breathe.
+☐ Explain the “why” behind design decisions, not only the finished form.
+☐ Where possible, connect claims to evidence, project outcomes or measurable performance.
+☐ Do not overuse words such as iconic, world-class, unique, luxurious, innovative unless evidence supports them.
+☐ Write for clients and decision-makers as well as architects.
+☐ Keep service pages business-aware; keep project pages design-rich.
+☐ Maintain one consistent vocabulary for project status, sector, service and location.
+☐ Use active voice and plain professional English.
+☐ Every page should have a next step: related project, related insight, contact or application.
+35. FINAL NOTES / OPEN DECISIONS
+01. RESOLVED / VERIFY: Founded in 2021 by Priyansh Barvaliya and Meet Lad; both are listed as Co-founders & Principal Architects. Professional registrations/credentials still require confirmation.
+02. RESOLVED / VERIFY: Head office standardized as A-503, Vivanta Icon, Madhuvan Circle, Pal, Surat, Gujarat, India. Current reach statement: Surat/Gujarat base + wider India; specific expansion cities still to be confirmed.
+03. WORKING FIGURES: Team 10–15; completed projects 10–12; ongoing projects 10; combined leadership experience 14 years based on 7 years each. Verify exact current figures before public launch.
+04. PROJECTS: Seven launch projects are identified. Add at least one more strong project to meet the recommended 8–15 launch range, and complete all project metadata, stories, media, credits and permissions.
+05. SERVICES / SECTORS: Priority sector and service taxonomy has been standardized in this review. Leadership still needs to confirm whether Project/Construction Management and/or turnkey execution is an actual public service.
+06. PROOF: Client/logo/testimonial permissions, awards, media features and certifications remain unprovided. Omit these blocks at launch if verified approvals are not available; move them to Phase 2.
+07. TECHNOLOGY: Exact software/BIM stack, digital-collaboration platforms, performance tools and any sustainability-certification capability still require confirmation before publication.
+08. CONTACT: Confirm central project/general routing email, WhatsApp/phone, vendor/collaboration/media routing owners and the final response SLA.
+09. CAREERS: Confirm Interior Designer experience ranges, software requirements by role, portfolio file-size limit, interview stages/response timing and any publishable employee benefits.
+10. ASSETS: Link the final logo pack, brand guidelines (if available), project image folders, studio/team photography, leadership portraits and approved archive images.
+11. GROWTH TARGETS: Confirm the monthly qualified-enquiry target and any minimum/ideal project scale, budget or fee thresholds that should be used for lead qualification.
+12. LEGAL / LANGUAGE: Confirm Privacy Policy, Terms and Cookie requirements with legal advice, and confirm whether Gujarati/Hindi remain Phase 2 or should launch with English.

@@ -15,34 +15,38 @@ export default function InsightsPage() {
     <main className="subPage">
       <SiteHeader />
 
-      <section className="galleryHero">
-        <p className="eyebrow">Insights</p>
-        <h1>Design thinking, construction knowledge and project stories.</h1>
-        <div className="galleryStats">
-          {Array.from(new Set(insights.map((insight) => insight.category))).map((category) => (
-            <span key={category}>{category}</span>
-          ))}
+      <section className="archiveHero">
+        <div className="archiveHeroLead">
+          <p className="eyebrow">Insights</p>
+          <h1>Design thinking, construction knowledge and project stories.</h1>
+          <div className="expertise-sector-list" style={{ justifyContent: "flex-start", marginTop: "32px" }}>
+            {Array.from(new Set(insights.map((insight) => insight.category))).map((category) => (
+              <span key={category} className="expertise-sector-badge" style={{ fontSize: "11px", padding: "8px 16px" }}>
+                {category}
+              </span>
+            ))}
+          </div>
         </div>
       </section>
 
-      <section className="insightIndex">
-        {insights.map((insight, index) => (
-          <Link href={`/insights/${insight.slug}`} className="insightRow" key={insight.slug}>
-            <span className="insightRowIndex">{String(index + 1).padStart(2, "0")}</span>
-            <span
-              className="insightRowCover"
-              style={{ backgroundImage: `url("${insight.cover}")` }}
-              aria-hidden="true"
-            />
-            <span className="insightRowBody">
-              <small>
-                {insight.category} / {insight.date} / {insight.readingTime}
-              </small>
-              <strong>{insight.title}</strong>
-              <p>{insight.excerpt}</p>
-            </span>
-          </Link>
-        ))}
+      <section className="insights-grid-wrapper">
+        <div className="insights-masonry">
+          {insights.map((insight, index) => (
+            <Link href={`/insights/${insight.slug}`} className="insight-card" key={insight.slug}>
+              <div className="insight-card-image" style={{ backgroundImage: `url("${insight.cover}")` }} />
+              <div className="insight-card-content">
+                <span className="expertise-label" style={{ marginBottom: "12px" }}>
+                  {String(index + 1).padStart(2, "0")} / {insight.category}
+                </span>
+                <h3 className="insight-card-title">{insight.title}</h3>
+                <p className="insight-card-excerpt">{insight.excerpt}</p>
+                <small className="insight-card-meta">
+                  {insight.date} — {insight.readingTime} read
+                </small>
+              </div>
+            </Link>
+          ))}
+        </div>
       </section>
 
       <SiteFooter />

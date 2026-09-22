@@ -15,100 +15,118 @@ export default function CareersPage() {
     <main className="subPage">
       <SiteHeader />
 
-      <section className="studioHero">
-        <div>
+      <section className="archiveHero">
+        <div className="archiveHeroLead">
           <p className="eyebrow">Careers</p>
           <h1>{careers.headline}</h1>
-          <p>{careers.proposition}</p>
+          <p style={{ marginTop: "24px", maxWidth: "800px", fontSize: "clamp(16px, 1.5vw, 20px)" }}>
+            {careers.proposition}
+          </p>
         </div>
       </section>
 
-      <section className="studioGrid" aria-label="Studio culture">
-        {careers.culture.map((item, index) => (
-          <article className="studioBlock" key={item.title} style={{ "--reveal-index": index } as React.CSSProperties}>
-            <span className="sectionNumber">{String(index + 1).padStart(2, "0")}</span>
-            <h2>{item.title}</h2>
-            <p>{item.copy}</p>
-          </article>
-        ))}
-      </section>
+      <div className="studio-blocks-wrapper">
+        <section className="studio-block">
+          <div className="studio-grid-layout">
+            <div className="studio-left-col">
+              <span className="studio-num">01</span>
+              <p className="eyebrow">Studio culture</p>
+              <h2>How we work together.</h2>
+            </div>
+            <div className="studio-right-col">
+              <div className="values-grid">
+                {careers.culture.map((item) => (
+                  <article className="value-card" key={item.title}>
+                    <h3>{item.title}</h3>
+                    <p>{item.copy}</p>
+                  </article>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
 
-      <section className="rolesSection" id="roles">
-        <div className="sectionNumber">01</div>
-        <div>
-          <p className="eyebrow">Open roles</p>
-          <h2>Current openings.</h2>
-        </div>
-        <div className="rolesList">
-          {careers.roles.map((role) => (
-            <details className="roleCard" key={role.title}>
-              <summary>
-                <span className="roleTitle">
-                  <strong>{role.title}</strong>
-                  <small>
-                    {role.department} / {role.location} / {role.type} / {role.experience}
-                  </small>
-                </span>
-                <span className="roleToggle" aria-hidden="true" />
-              </summary>
-              <div className="roleBody">
-                <p>{role.summary}</p>
-                <div className="roleColumns">
-                  <div>
-                    <span className="filterLabel">Responsibilities</span>
-                    <ul>
-                      {role.responsibilities.map((item) => (
-                        <li key={item}>{item}</li>
-                      ))}
-                    </ul>
+        <section className="studio-block" id="roles">
+          <div className="studio-grid-layout">
+            <div className="studio-left-col">
+              <span className="studio-num">02</span>
+              <p className="eyebrow">Open roles</p>
+              <h2>Current openings.</h2>
+            </div>
+            <div className="studio-right-col">
+              <div className="roles-accordion">
+                {careers.roles.map((role) => (
+                  <details className="role-card-modern" key={role.title}>
+                    <summary className="role-summary-modern">
+                      <div className="role-summary-content">
+                        <strong>{role.title}</strong>
+                        <span className="expertise-label" style={{ marginBottom: 0, marginTop: "8px", fontSize: "10px" }}>
+                          {role.department} / {role.location} / {role.type} / {role.experience}
+                        </span>
+                      </div>
+                      <span className="role-icon-plus">+</span>
+                    </summary>
+                    <div className="role-body-modern">
+                      <p className="role-summary-text">{role.summary}</p>
+                      <div className="role-columns-grid">
+                        <div>
+                          <span className="expertise-label">Responsibilities</span>
+                          <ul>
+                            {role.responsibilities.map((item) => (
+                              <li key={item}>{item}</li>
+                            ))}
+                          </ul>
+                        </div>
+                        <div>
+                          <span className="expertise-label">Requirements</span>
+                          <ul>
+                            {role.requirements.map((item) => (
+                              <li key={item}>{item}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      </div>
+                      <a href={`mailto:${firm.email}?subject=Application — ${role.title}`} className="ctaGhost" style={{ background: "var(--ink)", color: "#fff", border: "none", marginTop: "32px", width: "fit-content" }}>
+                        <Mail size={16} />
+                        Apply for this role
+                      </a>
+                    </div>
+                  </details>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="studio-block" style={{ borderBottom: "none" }}>
+          <div className="studio-grid-layout">
+            <div className="studio-left-col">
+              <span className="studio-num">03</span>
+              <p className="eyebrow">How to apply</p>
+              <h2>Five steps, one conversation.</h2>
+            </div>
+            <div className="studio-right-col">
+              <div className="apply-columns-modern">
+                <ol className="apply-steps-modern">
+                  {careers.applicationSteps.map((step, index) => (
+                    <li key={index}>{step}</li>
+                  ))}
+                </ol>
+                <div className="apply-requirements-modern">
+                  <div className="req-block">
+                    <span className="expertise-label">Portfolio</span>
+                    <p>{careers.portfolioRequirements}</p>
                   </div>
-                  <div>
-                    <span className="filterLabel">Requirements</span>
-                    <ul>
-                      {role.requirements.map((item) => (
-                        <li key={item}>{item}</li>
-                      ))}
-                    </ul>
+                  <div className="req-block">
+                    <span className="expertise-label">CV</span>
+                    <p>{careers.cvRequirements}</p>
                   </div>
                 </div>
-                <a href={`mailto:${firm.email}?subject=Application — ${role.title}`} className="textLink">
-                  <Mail size={16} />
-                  Apply for this role
-                </a>
               </div>
-            </details>
-          ))}
-        </div>
-      </section>
-
-      <section className="applySection">
-        <div className="sectionNumber">02</div>
-        <div>
-          <p className="eyebrow">How to apply</p>
-          <h2>Five steps, one conversation.</h2>
-        </div>
-        <div className="applyColumns">
-          <ol className="applySteps">
-            {careers.applicationSteps.map((step, index) => (
-              <li key={index}>{step}</li>
-            ))}
-          </ol>
-          <div className="applyRequirements">
-            <div>
-              <span className="filterLabel">Portfolio</span>
-              <p>{careers.portfolioRequirements}</p>
             </div>
-            <div>
-              <span className="filterLabel">CV</span>
-              <p>{careers.cvRequirements}</p>
-            </div>
-            <a href={`mailto:${firm.email}?subject=Careers Application`} className="ctaPrimary contactCta">
-              <Mail size={16} />
-              {firm.email}
-            </a>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
 
       <SiteFooter />
     </main>

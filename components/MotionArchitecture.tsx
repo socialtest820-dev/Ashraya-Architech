@@ -2,6 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import { useEffect, useRef } from "react";
+import LogoMark from "./LogoMark";
 
 const revealSelector = [
   ".portfolioStage",
@@ -157,7 +158,11 @@ export default function MotionArchitecture() {
 
   return (
     <>
-      <div className="pageSweep" key={pathname} aria-hidden="true" />
+      <div className="siteLoader" key={pathname} aria-hidden="true">
+        <div className="siteLoaderLogo">
+          <LogoMark compact />
+        </div>
+      </div>
       <div className="blueprintCursor" ref={cursorRef} aria-hidden="true">
         <span />
         <i />
