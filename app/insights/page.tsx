@@ -1,55 +1,41 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import SiteHeader from "../../components/SiteHeader";
-import SiteFooter from "../../components/SiteFooter";
+import PageIntro from "../../components/PageIntro";
+import Media from "../../components/Media";
 import { insights } from "../../data/firm";
 
 export const metadata: Metadata = {
-  title: "Insights | Ashraya Architects",
-  description:
-    "Design thinking, construction knowledge, workplace, real estate, materials, sustainability, technology and project stories from Ashraya Architects."
+  title: "Insights",
+  description: "Design thinking, planning, visualization and construction knowledge from Ashraya Architects."
 };
+
+const formatDate = (value: string) =>
+  new Date(`${value}-01`).toLocaleDateString("en-GB", { month: "long", year: "numeric" });
 
 export default function InsightsPage() {
   return (
-    <main className="subPage">
-      <SiteHeader />
-
-      <section className="archiveHero">
-        <div className="archiveHeroLead">
-          <p className="eyebrow">Insights</p>
-          <h1>Design thinking, construction knowledge and project stories.</h1>
-          <div className="expertise-sector-list" style={{ justifyContent: "flex-start", marginTop: "32px" }}>
-            {Array.from(new Set(insights.map((insight) => insight.category))).map((category) => (
-              <span key={category} className="expertise-sector-badge" style={{ fontSize: "11px", padding: "8px 16px" }}>
-                {category}
-              </span>
-            ))}
-          </div>
-        </div>
+    <>
+      <PageIntro
+        eyebrow="Insights"
+        title="Notes on design, planning and delivery."
+        lede="Short essays from the studio on how we think about context, efficiency, visualization, documentation and place."
+      />
+      <section className="wrap insightList" style={{ paddingBottom: "clamp(88px, 12vw, 176px)" }}>
+        {insights.map((item) => (
+          <Link href={`/insights/${item.slug}`} key={item.slug} data-reveal>
+            <Media src={item.cover} alt="" sizes="(max-width: 860px) 100vw, 33vw" reveal={false} />
+            <div>
+              <h2 className="h2">{item.title}</h2>
+              <p>{item.excerpt}</p>
+            </div>
+            <div className="meta">
+              <span>{item.category}</span>
+              <span>{formatDate(item.date)}</span>
+              <span>{item.readingTime} read</span>
+            </div>
+          </Link>
+        ))}
       </section>
-
-      <section className="insights-grid-wrapper">
-        <div className="insights-masonry">
-          {insights.map((insight, index) => (
-            <Link href={`/insights/${insight.slug}`} className="insight-card" key={insight.slug}>
-              <div className="insight-card-image" style={{ backgroundImage: `url("${insight.cover}")` }} />
-              <div className="insight-card-content">
-                <span className="expertise-label" style={{ marginBottom: "12px" }}>
-                  {String(index + 1).padStart(2, "0")} / {insight.category}
-                </span>
-                <h3 className="insight-card-title">{insight.title}</h3>
-                <p className="insight-card-excerpt">{insight.excerpt}</p>
-                <small className="insight-card-meta">
-                  {insight.date} — {insight.readingTime} read
-                </small>
-              </div>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      <SiteFooter />
-    </main>
+    </>
   );
 }

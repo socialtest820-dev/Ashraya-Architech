@@ -1,77 +1,75 @@
-import Link from "next/link";
-import LogoMark from "./LogoMark";
-import { firm } from "../data/firm";
+"use client";
 
-const groups = [
-  {
-    title: "Work",
-    links: [
-      { href: "/projects", label: "All Projects" },
-      { href: "/projects?filter=featured", label: "Featured" },
-      { href: "/gallery", label: "Gallery" }
-    ]
-  },
-  {
-    title: "Expertise",
-    links: [
-      { href: "/expertise#architecture", label: "Architecture" },
-      { href: "/expertise#interior-design", label: "Interior Design" },
-      { href: "/expertise#urban-design", label: "Urban Design" },
-      { href: "/expertise#master-planning", label: "Master Planning" },
-      { href: "/expertise#tendering-documentation", label: "Tendering & Documentation" },
-      { href: "/expertise#visualization", label: "Visualization" }
-    ]
-  },
-  {
-    title: "Studio",
-    links: [
-      { href: "/studio", label: "About" },
-      { href: "/studio#process", label: "Process" },
-      { href: "/studio#people", label: "People" },
-      { href: "/studio#values", label: "Values" }
-    ]
-  },
-  {
-    title: "Connect",
-    links: [
-      { href: "/contact#start-a-project", label: "Start a Project" },
-      { href: "/careers", label: "Careers" },
-      { href: "/contact", label: "Vendors / Collaborations" },
-      { href: "/insights", label: "Insights" }
-    ]
-  }
-];
+import Link from "next/link";
+import { ArrowUp, ArrowUpRight } from "lucide-react";
+import LogoMark from "./LogoMark";
+import { nav } from "./nav";
+import { firm, expertise } from "../data/firm";
 
 export default function SiteFooter() {
+  const toTop = () => {
+    if (window.__lenis) window.__lenis.scrollTo(0, { duration: 1.6 });
+    else window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <footer className="siteFooter">
-      <div className="footerTop">
+      <div className="footerCta">
+        <h2 className="display" data-reveal>
+          {firm.tagline}
+        </h2>
+        <Link
+          href="/contact#start-a-project"
+          className="button"
+          data-reveal
+          style={{ "--d": 1 } as React.CSSProperties}
+        >
+          Start a project <ArrowUpRight size={16} />
+        </Link>
+      </div>
+
+      <div className="footerGrid">
         <div className="footerBrand">
-          <LogoMark compact />
-          <div>
-            <strong>{firm.name}</strong>
-            <span>{firm.tagline}</span>
-          </div>
+          <LogoMark size={44} />
+          <p>{firm.positioning}</p>
+          <p className="coords">21.19° N, 72.77° E — Pal, Surat</p>
         </div>
-        <div className="footerGrid">
-          {groups.map((group) => (
-            <div key={group.title} className="footerGroup">
-              <h3>{group.title}</h3>
-              {group.links.map((link) => (
-                <Link key={link.label} href={link.href}>
-                  {link.label}
-                </Link>
-              ))}
-            </div>
-          ))}
+        <div>
+          <h4>Studio</h4>
+          <p>{firm.headOffice}</p>
+          <p style={{ marginTop: 14 }}>
+            <a href={`mailto:${firm.email}`}>{firm.email}</a>
+          </p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            {nav.map((item) => (
+              <li key={item.href}>
+                <Link href={item.href}>{item.label}</Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <h4>Expertise</h4>
+          <ul>
+            {expertise.slice(0, 6).map((item) => (
+              <li key={item.slug}>
+                <Link href={`/expertise#${item.slug}`}>{item.name.split(" & ")[0]}</Link>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
-      <div className="footerBase">
+
+      <div className="footerBottom">
         <span>
-          © {new Date().getFullYear()} {firm.name} — Surat, Gujarat, India
+          © {new Date().getFullYear()} {firm.name}. Surat, Gujarat.
         </span>
-        <a href={`mailto:${firm.email}`}>{firm.email}</a>
-        <span>{firm.headOffice}</span>
+        <button type="button" className="toTop" onClick={toTop}>
+          Top <ArrowUp size={14} />
+        </button>
       </div>
     </footer>
   );

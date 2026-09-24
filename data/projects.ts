@@ -42,21 +42,21 @@ export const projects: Project[] = [
       "Facade bays are sized to shade glazing from the high Gujarat sun while preserving open views. Balcony lines and vertical fins establish a repeated rhythm that reads clearly from a distance and scales down to intimate detail at street level.",
       "As the practice's featured launch case study, the project also demonstrates our visualization capability — the rendered views shown here were developed in-house as design and communication tools, not afterthoughts."
     ],
-    cover: img("skyline-01"),
+    cover: img("skyline-07"),
     featured: true,
     images: [
-      { src: img("skyline-01"), caption: "Development skyline — tower cluster view" },
-      { src: img("skyline-02"), caption: "Arrival elevation at dusk" },
-      { src: img("skyline-03"), caption: "Tower base and podium landscape" },
-      { src: img("skyline-04"), caption: "Facade rhythm and vertical fins" },
-      { src: img("skyline-05"), caption: "Residence balcony detail" },
-      { src: img("skyline-06"), caption: "Podium court and amenity deck" },
-      { src: img("skyline-07"), caption: "Corner living space toward the city" },
-      { src: img("skyline-08"), caption: "Evening ambience, amenity level" },
-      { src: img("skyline-09"), caption: "Towers in context, day view" },
-      { src: img("skyline-10"), caption: "Vertical circulation study" },
-      { src: img("skyline-11"), caption: "Pool court between volumes" },
-      { src: img("skyline-12"), caption: "Twilight view from the approach road" }
+      { src: img("skyline-01"), caption: "Retail frontage along the approach road" },
+      { src: img("skyline-02"), caption: "Podium garden and children's play area" },
+      { src: img("skyline-03"), caption: "Pool deck beneath the tower" },
+      { src: img("skyline-04"), caption: "Entrance drop-off and arrival porch" },
+      { src: img("skyline-05"), caption: "Tower elevation, day view" },
+      { src: img("skyline-06"), caption: "Aerial view of the tower and site" },
+      { src: img("skyline-07"), caption: "Tower at dusk from the approach road" },
+      { src: img("skyline-08"), caption: "Tower and retail podium, day view" },
+      { src: img("skyline-09"), caption: "Fitness studio overlooking the landscape" },
+      { src: img("skyline-10"), caption: "Residents' lounge and games room" },
+      { src: img("skyline-11"), caption: "Banquet and community hall" },
+      { src: img("skyline-12"), caption: "Double-height entrance lobby" }
     ]
   },
   {
@@ -77,17 +77,17 @@ export const projects: Project[] = [
       "Landscape is treated as infrastructure — the green corridors manage monsoon water, temper the microclimate and give the township its identity, rather than acting as leftover space between plots.",
       "The walkthrough film shown on this page was produced in-house to communicate the character of the place to stakeholders and future residents."
     ],
-    cover: img("swarnbhumi-01"),
+    cover: img("swarnbhumi-07"),
     video: "/assets/hero/swarnbhumi-walkthrough.mp4",
     featured: true,
     images: [
-      { src: img("swarnbhumi-01"), caption: "Central green and community spine" },
-      { src: img("swarnbhumi-02"), caption: "Residential cluster edge" },
-      { src: img("swarnbhumi-03"), caption: "Primary street character" },
-      { src: img("swarnbhumi-04"), caption: "Water court and monsoon landscape" },
-      { src: img("swarnbhumi-05"), caption: "Community pavilion" },
-      { src: img("swarnbhumi-06"), caption: "Pedestrian promenade" },
-      { src: img("swarnbhumi-07"), caption: "Township entry sequence" }
+      { src: img("swarnbhumi-01"), caption: "Villa cluster along an internal street" },
+      { src: img("swarnbhumi-02"), caption: "Paired residences with shaded frontages" },
+      { src: img("swarnbhumi-03"), caption: "Internal street and landscaped edge" },
+      { src: img("swarnbhumi-04"), caption: "Landscaped roundabout on the primary street" },
+      { src: img("swarnbhumi-05"), caption: "Township entrance and gateway landscape" },
+      { src: img("swarnbhumi-06"), caption: "Clubhouse and community lawn" },
+      { src: img("swarnbhumi-07"), caption: "Aerial view of the township plan" }
     ]
   },
   {
@@ -108,16 +108,16 @@ export const projects: Project[] = [
       "Floor plates favour planning efficiency: regular structural grids, full-floor flexibility and service cores positioned to keep maximum frontage usable. Material studies pair warm stone tones with deep glazing to balance solidity with daylight.",
       "Concept visualisations shown here were developed in-house to test massing, material character and street presence with the client."
     ],
-    cover: img("empire-01"),
+    cover: img("empire-03"),
     featured: true,
     images: [
-      { src: img("empire-01"), caption: "Concept massing — corner presence" },
-      { src: img("empire-02"), caption: "Facade material study" },
-      { src: img("empire-03"), caption: "Street elevation, daylight study" },
-      { src: img("empire-04"), caption: "Entrance and approach sequence" },
-      { src: img("empire-05"), caption: "Vertical fin detail study" },
-      { src: img("empire-06"), caption: "Evening lighting concept" },
-      { src: img("empire-07"), caption: "Building in urban context" }
+      { src: img("empire-01"), caption: "Aerial view — corner presence" },
+      { src: img("empire-02"), caption: "Side elevation at sunset" },
+      { src: img("empire-03"), caption: "Street view at sunset" },
+      { src: img("empire-04"), caption: "Approach from the main road" },
+      { src: img("empire-05"), caption: "Principal elevation at dusk" },
+      { src: img("empire-06"), caption: "Crown and terrace levels" },
+      { src: img("empire-07"), caption: "Ground-level frontage and entrance" }
     ]
   },
   {
@@ -141,8 +141,8 @@ export const projects: Project[] = [
     cover: img("vimal-01"),
     featured: true,
     images: [
-      { src: img("vimal-01"), caption: "Garden elevation — verandah edge" },
-      { src: img("vimal-02"), caption: "Principal facade with shaded openings" }
+      { src: img("vimal-01"), caption: "Street elevation" },
+      { src: img("vimal-02"), caption: "Corner view toward the garden" }
     ]
   },
   {

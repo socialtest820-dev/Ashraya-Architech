@@ -1,177 +1,126 @@
-import type { CSSProperties } from "react";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowUpRight } from "lucide-react";
-import SiteHeader from "../../../components/SiteHeader";
-import SiteFooter from "../../../components/SiteFooter";
+import { ArrowLeft, ArrowRight } from "lucide-react";
+import Media from "../../../components/Media";
+import ProjectGallery from "../../../components/ProjectGallery";
 import { getProject, projects } from "../../../data/projects";
 
 export function generateStaticParams() {
   return projects.map((project) => ({ slug: project.slug }));
 }
 
-export function generateMetadata({ params }: { params: { slug: string } }) {
+export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const project = getProject(params.slug);
-
   return {
-    title: project ? `${project.title} | Ashraya Architects` : "Project | Ashraya Architects",
-    description: project?.summary ?? "Project detail for Ashraya Architects."
+    title: project?.title ?? "Project",
+    description: project?.summary
   };
 }
 
+const d = (n: number) => ({ "--d": n }) as React.CSSProperties;
+
 export default function ProjectDetailPage({ params }: { params: { slug: string } }) {
   const project = getProject(params.slug);
+  if (!project) notFound();
 
-  if (!project) {
-    notFound();
-  }
-
-  const meta = [
-    { label: "Sector", value: project.sector },
-    { label: "Location", value: project.location },
-    { label: "Status", value: project.status },
-    { label: "Timeline", value: project.year },
-    ...(project.area ? [{ label: "Scope", value: project.area }] : [])
-  ];
-
-  const related = projects
-    .filter((item) => item.slug !== project.slug && item.cover)
-    .slice(0, 3);
+  const index = projects.findIndex((item) => item.slug === project.slug);
+  const next = projects[(index + 1) % projects.length];
+  const gallery = project.images.filter((image) => image.src !== project.cover);
 
   return (
-    <main className="subPage">
-      <SiteHeader />
-
-      {/* ---------- Hero ---------- */}
-      <section className="projectStoryHero">
-        <div className="storyCopy">
-          <Link href="/projects" className="backLink">
-            Back to projects
+    <article>
+      <header className="projectHead">
+        <div>
+          <Link href="/projects" className="textLink" data-reveal>
+            <ArrowLeft /> All projects
           </Link>
-          <p className="eyebrow">{project.type}</p>
-          <h1>{project.title}</h1>
-          <p className="storySummary">{project.summary}</p>
+          <h1 className="display" data-reveal style={d(1)}>
+            {project.title}
+          </h1>
         </div>
-        {project.cover ? (
-          <div
-            className="storyCover"
-            style={{ backgroundImage: `url("${project.cover}")` }}
-            role="img"
-            aria-label={`${project.title} — cover view`}
-          />
-        ) : (
-          <div className="storyCover storyCoverEmpty" aria-hidden="true">
-            <span>In design — visuals to follow</span>
-          </div>
-        )}
-      </section>
+        <p className="lede" data-reveal style={d(2)}>
+          {project.summary}
+        </p>
+      </header>
 
-      {/* ---------- Meta strip ---------- */}
-      <section className="storyMetaBand" aria-label="Project facts">
-        <div className="storyMetaGrid">
-          {meta.map((item) => (
-            <div className="storyMetaCell" key={item.label}>
-              <span>{item.label}</span>
-              <strong>{item.value}</strong>
+      <Media
+        src={project.cover}
+        alt={`${project.title} — ${project.images.find((image) => image.src === project.cover)?.caption ?? "cover view"}`}
+        className="projectHero"
+        priority
+        parallax
+      />
+
+      <section className="section wrap split">
+        <div className="stickyCol">
+          <dl className="metaList" data-reveal>
+            <div>
+              <dt>Type</dt>
+              <dd>{project.type}</dd>
             </div>
+            <div>
+              <dt>Status</dt>
+              <dd>{project.status}</dd>
+            </div>
+            <div>
+              <dt>Location</dt>
+              <dd>{project.location}</dd>
+            </div>
+            <div>
+              <dt>Timeline</dt>
+              <dd>{project.year}</dd>
+            </div>
+            <div className="full">
+              <dt>Sector</dt>
+              <dd>{project.sector}</dd>
+            </div>
+            <div className="full">
+              <dt>Scope</dt>
+              <dd>{project.area}</dd>
+            </div>
+            <div className="full">
+              <dt>Services</dt>
+              <dd>{project.services.join(", ")}</dd>
+            </div>
+          </dl>
+        </div>
+        <div className="story">
+          {project.story.map((paragraph, i) => (
+            <p key={i} data-reveal>
+              {paragraph}
+            </p>
           ))}
         </div>
       </section>
 
-      {/* ---------- Services ---------- */}
-      {project.services.length > 0 && (
-        <section className="storyServicesBand">
-          <span className="filterLabel">Services provided</span>
-          <div className="storyServiceChips">
-            {project.services.map((service) => (
-              <span className="storyServiceChip" key={service}>
-                {service}
-              </span>
-            ))}
-          </div>
-        </section>
-      )}
-
-      {/* ---------- Narrative ---------- */}
-      <section className="storyNarrative">
-        <div className="storyNarrativeInner">
-          <div className="storyNarrativeHead">
-            <span className="storyNarrativeNumber">01</span>
-            <p className="eyebrow">The project</p>
-            <h2>Design thinking behind {project.title}.</h2>
-          </div>
-          <div className="storyNarrativeBody">
-            {project.story.map((paragraph, index) => (
-              <p key={index}>{paragraph}</p>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ---------- Video ---------- */}
       {project.video && (
-        <section className="storyVideo" aria-label="Project walkthrough">
-          <div className="storyVideoHead">
-            <span className="storyNarrativeNumber">02</span>
-            <p className="eyebrow">Walkthrough</p>
-            <h2>Move through the design.</h2>
-          </div>
-          <div className="storyVideoFrame">
-            <video src={project.video} controls muted loop playsInline preload="metadata" />
-          </div>
-          <p className="storyVideoCaption">Walkthrough film — {project.title}</p>
+        <section className="videoBlock" style={{ paddingBottom: "clamp(64px, 8vw, 120px)" }}>
+          <p className="eyebrow" data-reveal style={{ marginBottom: 24 }}>
+            Walkthrough film
+          </p>
+          <video src={project.video} controls muted playsInline preload="metadata" poster={project.cover} data-reveal />
         </section>
       )}
 
-      {/* ---------- Gallery ---------- */}
-      {project.images.length > 0 && (
-        <section className="storyGallery" aria-label={`${project.title} images`}>
-          <div className="storyGalleryHead">
-            <span className="storyNarrativeNumber">{project.video ? "03" : "02"}</span>
-            <p className="eyebrow">Gallery</p>
-            <h2>{project.images.length} views of the project.</h2>
-          </div>
-          <div className="imageProcession">
-            {project.images.map((image, index) => (
-              <figure
-                className="storyImage"
-                key={`${project.slug}-${index}`}
-                style={{ "--i": index } as CSSProperties}
-              >
-                <div style={{ backgroundImage: `url("${image.src}")` }} role="img" aria-label={image.caption} />
-                <figcaption>
-                  <span>{String(index + 1).padStart(2, "0")}</span>
-                  <em>{image.caption}</em>
-                </figcaption>
-              </figure>
-            ))}
-          </div>
-        </section>
-      )}
+      {gallery.length > 0 && <ProjectGallery images={gallery} title={project.title} />}
 
-      {/* ---------- Related ---------- */}
-      {related.length > 0 && (
-        <section className="storyRelated">
-          <div className="storyRelatedHead">
-            <p className="eyebrow">Continue browsing</p>
-            <h2>More selected work.</h2>
-          </div>
-          <div className="nextProjectBand storyRelatedBand">
-            {related.map((item) => (
-              <Link href={`/projects/${item.slug}`} key={item.slug}>
-                <span style={{ backgroundImage: `url("${item.cover}")` }} aria-hidden="true" />
-                <strong>{item.title}</strong>
-                <small>{item.type}</small>
-                <i className="relatedArrow" aria-hidden="true">
-                  <ArrowUpRight size={16} />
-                </i>
-              </Link>
-            ))}
-          </div>
-        </section>
-      )}
+      <div style={{ height: "clamp(88px, 12vw, 176px)" }} />
 
-      <SiteFooter />
-    </main>
+      <Link href={`/projects/${next.slug}`} className={next.cover ? "nextProject" : "nextProject noImage"}>
+        {next.cover && <Media src={next.cover} alt="" reveal={false} parallax />}
+        <div className="nextCopy">
+          <div>
+            <p className="eyebrow">Next project</p>
+            <h2 className="display" style={{ marginTop: 18 }}>
+              {next.title}
+            </h2>
+          </div>
+          <span className="textLink" style={{ color: "#fff" }}>
+            {next.type} <ArrowRight />
+          </span>
+        </div>
+      </Link>
+    </article>
   );
 }
