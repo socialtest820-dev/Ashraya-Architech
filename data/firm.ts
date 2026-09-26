@@ -58,6 +58,22 @@ export const designPrinciples = [
   "Continuous learning"
 ];
 
+export const sustainability = {
+  position: "Responsible design means reducing unnecessary resource use while improving comfort, usability, longevity and contextual fit. Sustainability claims should be project-specific and evidence-based wherever possible.",
+  principles: [
+    { title: "Passive Approach", copy: "Prioritize orientation, daylight, shading, natural ventilation where appropriate, heat-gain control, landscape response and climate-sensitive planning before relying on active systems." },
+    { title: "Energy", copy: "Reduce demand through passive decisions and efficient planning; coordinate efficient building systems and lighting where scope allows; publish measured energy claims only when verified." },
+    { title: "Water", copy: "Support water-efficient fixtures, sensible landscape demand, rainwater/reuse strategies and site-specific water management where applicable." }
+  ]
+};
+
+export const technology = {
+  philosophy: "Use technology to improve design clarity, coordination, decision-making and communication—not as a substitute for design judgment.",
+  practices: [
+    { title: "3D Visualization", copy: "3D development and architectural visualization are established service capabilities. Use iterative 3D studies to test form, space, materials and presentation, then produce client/marketing-quality renders as appropriate." }
+  ]
+};
+
 export const differentiators = [
   { title: "Multidisciplinary thinking", copy: "Architecture, interiors, planning, visualization and documentation under one design leadership — ideas stay consistent across scales." },
   { title: "Concept-to-documentation continuity", copy: "The team that shapes the concept carries it into drawings, schedules and tender packages, so intent survives execution." },

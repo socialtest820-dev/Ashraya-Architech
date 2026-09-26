@@ -376,6 +376,12 @@ figcaption,
   inset: 0;
 }
 
+.media.isNatural .zoom,
+.media.isNatural .px {
+  position: relative;
+  inset: auto;
+}
+
 .media[data-parallax] .px {
   inset: -8% 0;
   will-change: transform;
@@ -749,7 +755,7 @@ figcaption {
 .siteFooter {
   background: var(--brand);
   color: var(--on-brand);
-  padding: clamp(80px, 10vw, 140px) var(--gutter) 32px;
+  padding: clamp(40px, 5vw, 70px) var(--gutter) 24px;
 }
 
 .footerCta {
@@ -757,7 +763,7 @@ figcaption {
   justify-content: space-between;
   align-items: end;
   gap: 40px;
-  padding-bottom: clamp(56px, 7vw, 96px);
+  padding-bottom: clamp(28px, 4vw, 48px);
   border-bottom: 1px solid var(--on-brand-line);
 }
 
@@ -781,7 +787,7 @@ figcaption {
   display: grid;
   grid-template-columns: 2fr repeat(3, 1fr);
   gap: 40px;
-  padding-block: 56px;
+  padding-block: 28px;
   font-size: 14px;
   color: var(--on-brand);
 }
@@ -1062,58 +1068,7 @@ figcaption {
   opacity: clamp(0, calc((var(--p, 0) - 0.55) * 4), 1);
 }
 
-/* ---------- Home: practice intro ---------- */
 
-.practice {
-  display: grid;
-  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
-  gap: clamp(32px, 6vw, 120px);
-  align-items: start;
-}
-
-.practice .h2 {
-  margin-top: 24px;
-  max-width: 15ch;
-}
-
-.practiceBody {
-  max-width: 640px;
-  padding-top: 42px;
-}
-
-.practiceBody p {
-  font-size: clamp(17px, 1.25vw, 20px);
-  line-height: 1.7;
-  color: var(--ink-2);
-}
-
-.practiceBody .textLink {
-  margin-top: 36px;
-}
-
-.practiceStats {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 28px 24px;
-  margin-top: 48px;
-  padding-top: 28px;
-  border-top: 1px solid var(--line);
-}
-
-.practiceStats strong {
-  display: block;
-  font-size: clamp(26px, 2.2vw, 36px);
-  font-weight: 500;
-  letter-spacing: -0.035em;
-  line-height: 1.1;
-}
-
-.practiceStats span {
-  display: block;
-  margin-top: 6px;
-  font-size: 13px;
-  color: var(--muted);
-}
 
 /* ---------- Feature rows (HCP style) ---------- */
 
@@ -1470,6 +1425,10 @@ figcaption {
   height: min(88svh, 980px);
 }
 
+.projectHero.isNatural {
+  height: auto;
+}
+
 .projectHero.media,
 .pageHero.media {
   margin-inline: var(--gutter);
@@ -1547,16 +1506,7 @@ figcaption {
 }
 
 .projectGallery figure .media {
-  aspect-ratio: 16 / 9;
   cursor: zoom-in;
-}
-
-.projectGallery figure.half .media {
-  aspect-ratio: 4 / 5;
-}
-
-.projectGallery figure.offset .media {
-  aspect-ratio: 4 / 3;
 }
 
 .videoBlock {
@@ -1572,7 +1522,8 @@ figcaption {
 .nextProject {
   display: block;
   position: relative;
-  height: min(78svh, 820px);
+  height: clamp(280px, 35vw, 480px);
+  margin: 0 var(--gutter) clamp(80px, 10vw, 120px);
   overflow: hidden;
   color: #fff;
 }
@@ -2216,7 +2167,6 @@ details[open] .plus::after {
   }
 
   .split,
-  .practice,
   .pageIntroGrid,
   .projectHead,
   .featureRow,
@@ -2261,9 +2211,7 @@ details[open] .plus::after {
     padding-left: 0;
   }
 
-  .practiceBody {
-    padding-top: 0;
-  }
+
 
   .workCard,
   .workCard:nth-child(4n + 2),

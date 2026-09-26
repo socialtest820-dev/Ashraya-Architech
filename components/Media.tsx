@@ -10,6 +10,7 @@ type MediaProps = {
   parallax?: boolean;
   reveal?: boolean;
   style?: React.CSSProperties;
+  natural?: boolean;
 };
 
 // Image frame with optional scroll parallax and clip reveal. Falls back to a calm placeholder.
@@ -21,7 +22,8 @@ export default function Media({
   priority,
   parallax,
   reveal = true,
-  style
+  style,
+  natural
 }: MediaProps) {
   if (!src) {
     return (
@@ -36,14 +38,18 @@ export default function Media({
 
   return (
     <div
-      className={`media ${className}`}
-      data-parallax={parallax ? "" : undefined}
+      className={`media ${className} ${natural ? 'isNatural' : ''}`}
+      data-parallax={parallax && !natural ? "" : undefined}
       data-reveal={reveal ? "" : undefined}
       style={style}
     >
       <div className="zoom">
         <div className="px">
-          <Image src={src} alt={alt} fill sizes={sizes} priority={priority} style={{ objectFit: "cover" }} />
+          {natural ? (
+            <img src={src} alt={alt} style={{ width: '100%', height: 'auto', display: 'block' }} loading={priority ? "eager" : "lazy"} />
+          ) : (
+            <Image src={src} alt={alt} fill sizes={sizes} priority={priority} style={{ objectFit: "cover" }} />
+          )}
         </div>
       </div>
     </div>

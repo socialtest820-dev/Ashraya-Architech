@@ -29,19 +29,18 @@ export default function ProjectArchive() {
 
       <div className="projectGrid" key={filter}>
         {list.map((project, index) => {
-          const wide = index % 3 === 0 && Boolean(project.cover);
           return (
             <Link
               href={`/projects/${project.slug}`}
               key={project.slug}
-              className={`projectCard fadeSwap${wide ? " isWide" : ""}${project.cover ? "" : " isPending"}`}
+              className={`projectCard fadeSwap${project.cover ? "" : " isPending"}`}
               style={{ animationDelay: `${index * 70}ms` }}
             >
               <Media
                 src={project.cover}
                 alt={project.title}
-                sizes={wide ? "100vw" : "(max-width: 860px) 100vw, 50vw"}
-                parallax={wide}
+                sizes="(max-width: 860px) 100vw, 50vw"
+                parallax={false}
               />
               <div className="projectCardInfo">
                 <div>

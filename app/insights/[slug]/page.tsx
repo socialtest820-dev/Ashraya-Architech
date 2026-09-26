@@ -11,7 +11,15 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const item = insights.find((entry) => entry.slug === params.slug);
-  return { title: item?.title ?? "Insight", description: item?.excerpt };
+  return {
+    title: item?.title ?? "Insight",
+    description: item?.excerpt,
+    openGraph: {
+      title: item?.title ?? "Insight",
+      description: item?.excerpt,
+      images: item?.cover ? [item.cover] : []
+    }
+  };
 }
 
 const d = (n: number) => ({ "--d": n }) as React.CSSProperties;

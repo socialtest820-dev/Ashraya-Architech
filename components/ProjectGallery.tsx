@@ -31,7 +31,8 @@ export default function ProjectGallery({ images, title }: { images: ProjectImage
                 src={image.src}
                 alt={`${title} — ${image.caption}`}
                 sizes={layout[index] === "half" ? "(max-width: 860px) 100vw, 50vw" : "100vw"}
-                parallax={layout[index] === ""}
+                parallax={false}
+                natural
               />
             </button>
             <figcaption>{image.caption}</figcaption>

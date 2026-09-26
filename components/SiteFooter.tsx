@@ -14,19 +14,7 @@ export default function SiteFooter() {
 
   return (
     <footer className="siteFooter">
-      <div className="footerCta">
-        <h2 className="display" data-reveal>
-          {firm.tagline}
-        </h2>
-        <Link
-          href="/contact#start-a-project"
-          className="button"
-          data-reveal
-          style={{ "--d": 1 } as React.CSSProperties}
-        >
-          Start a project <ArrowUpRight size={16} />
-        </Link>
-      </div>
+
 
       <div className="footerGrid">
         <div className="footerBrand">

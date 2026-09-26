@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import PageIntro from "../../components/PageIntro";
 import Media from "../../components/Media";
-import { firm, story, values, designPrinciples, facts, people, timeline } from "../../data/firm";
+import { firm, story, values, designPrinciples, facts, people, timeline, sustainability, technology } from "../../data/firm";
 
 export const metadata: Metadata = {
   title: "Studio",
@@ -127,6 +127,44 @@ export default function StudioPage() {
               <p>{value.copy}</p>
             </div>
           ))}
+        </div>
+      </section>
+
+      <section className="section wrap split">
+        <p className="eyebrow" data-reveal>
+          Sustainability & Impact
+        </p>
+        <div>
+          <p className="bigQuote" data-reveal>
+            {sustainability.position}
+          </p>
+          <div className="textGrid two" style={{ marginTop: 56 }}>
+            {sustainability.principles.map((principle, index) => (
+              <div key={principle.title} data-reveal style={d(index % 2)}>
+                <h3 className="h3">{principle.title}</h3>
+                <p>{principle.copy}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section wrap split" style={{ paddingTop: 0 }}>
+        <p className="eyebrow" data-reveal>
+          Technology & Workflow
+        </p>
+        <div>
+          <p className="bigQuote" data-reveal>
+            {technology.philosophy}
+          </p>
+          <div className="textGrid two" style={{ marginTop: 56 }}>
+            {technology.practices.map((practice, index) => (
+              <div key={practice.title} data-reveal style={d(index % 2)}>
+                <h3 className="h3">{practice.title}</h3>
+                <p>{practice.copy}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

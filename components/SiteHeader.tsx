@@ -1,8 +1,8 @@
 "use client";
 
-/* eslint-disable @next/next/no-img-element */
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import LogoMark from "./LogoMark";
 import { nav } from "./nav";
@@ -110,12 +110,14 @@ export default function SiteHeader() {
         <div className="menuAside">
           <div className="menuPreview" aria-hidden="true">
             {[{ image: "/assets/projects/skyline-05.jpg" }, ...nav].map((item, index) => (
-              <img
+              <Image
                 key={item.image}
                 src={item.image}
                 alt=""
-                loading="lazy"
+                fill
+                sizes="(max-width: 1024px) 0vw, 33vw"
                 className={index === preview ? "isActive" : ""}
+                style={{ objectFit: "cover" }}
               />
             ))}
           </div>

@@ -14,7 +14,12 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   const project = getProject(params.slug);
   return {
     title: project?.title ?? "Project",
-    description: project?.summary
+    description: project?.summary,
+    openGraph: {
+      title: project?.title ?? "Project",
+      description: project?.summary,
+      images: project?.cover ? [project.cover] : []
+    }
   };
 }
 
@@ -49,7 +54,7 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
         alt={`${project.title} — ${project.images.find((image) => image.src === project.cover)?.caption ?? "cover view"}`}
         className="projectHero"
         priority
-        parallax
+        natural
       />
 
       <section className="section wrap split">

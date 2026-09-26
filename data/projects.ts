@@ -112,10 +112,7 @@ export const projects: Project[] = [
     featured: true,
     images: [
       { src: img("empire-01"), caption: "Aerial view — corner presence" },
-      { src: img("empire-02"), caption: "Side elevation at sunset" },
-      { src: img("empire-03"), caption: "Street view at sunset" },
       { src: img("empire-04"), caption: "Approach from the main road" },
-      { src: img("empire-05"), caption: "Principal elevation at dusk" },
       { src: img("empire-06"), caption: "Crown and terrace levels" },
       { src: img("empire-07"), caption: "Ground-level frontage and entrance" }
     ]
@@ -162,8 +159,8 @@ export const projects: Project[] = [
       "Roof forms are calibrated for monsoon rainfall and sea-air exposure, and each pavilion orients to its own frame of garden and sky.",
       "The project is currently in early design; imagery and site details will be published as the design develops."
     ],
-    cover: "",
-    images: []
+    cover: img("swarnbhumi-02"),
+    images: [{ src: img("swarnbhumi-02"), caption: "Early visual study" }]
   },
   {
     slug: "uttam-bungalow",
@@ -182,8 +179,8 @@ export const projects: Project[] = [
       "Bedroom volumes are placed to catch morning light while remaining shielded from afternoon heat, and service zones are consolidated into a compact rear band.",
       "The project is in active documentation; imagery will follow as construction progresses."
     ],
-    cover: "",
-    images: []
+    cover: img("vimal-02"),
+    images: [{ src: img("vimal-02"), caption: "Early visual study" }]
   },
   {
     slug: "casa-ceilo",
@@ -202,8 +199,8 @@ export const projects: Project[] = [
       "The section steps with the site so that each level keeps a clear view line over the roof below.",
       "The project is in concept development; visuals will be published when the design direction is approved."
     ],
-    cover: "",
-    images: []
+    cover: img("skyline-05"),
+    images: [{ src: img("skyline-05"), caption: "Early visual study" }]
   }
 ];
 

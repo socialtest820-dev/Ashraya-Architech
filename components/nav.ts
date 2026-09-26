@@ -1,4 +1,5 @@
 export const nav = [
+  { href: "/overview", label: "Overview", image: "/assets/projects/skyline-05.jpg" },
   { href: "/projects", label: "Projects", image: "/assets/projects/skyline-07.jpg" },
   { href: "/expertise", label: "Expertise", image: "/assets/projects/swarnbhumi-07.jpg" },
   { href: "/studio", label: "Studio", image: "/assets/projects/skyline-12.jpg" },
