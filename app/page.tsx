@@ -8,7 +8,7 @@ import { firm, process } from "../data/firm";
 const d = (n: number) => ({ "--d": n }) as React.CSSProperties;
 
 export default function HomePage() {
-  const word = "Ashraya";
+  const word = "Acme";
 
   return (
     <>
@@ -22,7 +22,7 @@ export default function HomePage() {
               </span>
             ))}
           </h1>
-          <p className="introSub">Architects · Surat</p>
+          <p className="introSub">Architects · Example City</p>
         </div>
         <div className="scrollCue" aria-hidden="true">
           Scroll
@@ -35,14 +35,14 @@ export default function HomePage() {
           <div className="heroFrame">
             <Image
               src="/assets/projects/skyline-07.jpg"
-              alt="Nilkanth Skyline at dusk"
+              alt="Skyline Residences at dusk"
               fill
               priority
               sizes="100vw"
               style={{ objectFit: "cover" }}
             />
           </div>
-          <p className="heroCaption">Nilkanth Skyline, Surat</p>
+          <p className="heroCaption">Skyline Residences, Example City</p>
           <div className="heroCopy">
             <h2 className="display">{firm.heroHeadline}</h2>
             <p>{firm.heroSupport}</p>

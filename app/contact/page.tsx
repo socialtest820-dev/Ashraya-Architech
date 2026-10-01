@@ -5,7 +5,7 @@ import { firm, faqs } from "../../data/firm";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Start a project or get in touch with Ashraya Architects, Surat, Gujarat."
+  description: "Start a project or get in touch with Acme Architects, Example City."
 };
 
 const faqCategories = Array.from(new Set(faqs.map((faq) => faq.category)));

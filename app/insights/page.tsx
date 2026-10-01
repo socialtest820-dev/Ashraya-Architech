@@ -6,7 +6,7 @@ import { insights } from "../../data/firm";
 
 export const metadata: Metadata = {
   title: "Insights",
-  description: "Design thinking, planning, visualization and construction knowledge from Ashraya Architects."
+  description: "Design thinking, planning, visualization and construction knowledge from Acme Architects."
 };
 
 const formatDate = (value: string) =>

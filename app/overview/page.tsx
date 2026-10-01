@@ -8,7 +8,7 @@ import { projects } from "../../data/projects";
 
 export const metadata: Metadata = {
   title: "Overview",
-  description: "An overview of Ashraya Architects, our selected work, and philosophy."
+  description: "An overview of Acme Architects, our selected work, and philosophy."
 };
 
 const d = (n: number) => ({ "--d": n }) as React.CSSProperties;
@@ -18,8 +18,8 @@ const features = [
     title: "Architecture",
     copy: "Buildings designed as complete journeys — research, concept, development, documentation and execution support under one design leadership. From private residences to multi-storey residential and commercial developments.",
     image: "/assets/projects/skyline-05.jpg",
-    alt: "Nilkanth Skyline tower elevation",
-    label: "Nilkanth Skyline, Surat",
+    alt: "Skyline Residences tower elevation",
+    label: "Skyline Residences, Example City",
     href: "/expertise#architecture",
     link: "Architecture"
   },
@@ -27,8 +27,8 @@ const features = [
     title: "Urban Design & Master Planning",
     copy: "Township and master plans organised around clear movement hierarchies, walkable clusters and landscape planned as infrastructure — built to evolve without losing identity.",
     image: "/assets/projects/swarnbhumi-07.jpg",
-    alt: "Aerial view of the Swarnbhumi township plan",
-    label: "Swarnbhumi, Gujarat",
+    alt: "Aerial view of the Greenfield Township plan",
+    label: "Greenfield Township, Example Region",
     href: "/expertise#master-planning",
     link: "Urbanism"
   },
@@ -36,17 +36,17 @@ const features = [
     title: "Commercial & Corporate",
     copy: "Commercial addresses designed for stability and clarity — disciplined facades, efficient floor plates and ground levels that give arrival real dignity.",
     image: "/assets/projects/empire-04.jpg",
-    alt: "The Empire commercial building at sunset",
-    label: "The Empire, Surat",
+    alt: "Meridian Tower commercial building at sunset",
+    label: "Meridian Tower, Example City",
     href: "/projects/the-empire",
-    link: "The Empire"
+    link: "Meridian Tower"
   },
   {
     title: "Interior Design",
     copy: "Interiors where material, light and furniture are coordinated with the architecture rather than applied over it — resolved down to every junction and detail.",
     image: "/assets/projects/skyline-12.jpg",
-    alt: "Double-height entrance lobby at Nilkanth Skyline",
-    label: "Nilkanth Skyline — entrance lobby",
+    alt: "Double-height entrance lobby at Skyline Residences",
+    label: "Skyline Residences — entrance lobby",
     href: "/expertise#interior-design",
     link: "Interiors"
   },
@@ -54,8 +54,8 @@ const features = [
     title: "3D Development & Visualization",
     copy: "In-house visualization used as a working design tool — testing form, light and material early, then carrying projects clearly to clients, buyers and authorities.",
     image: "/assets/projects/swarnbhumi-05.jpg",
-    alt: "Swarnbhumi township entrance visualization",
-    label: "Swarnbhumi — township entrance",
+    alt: "Greenfield Township entrance visualization",
+    label: "Greenfield Township — entrance",
     href: "/expertise#visualization",
     link: "Visualization"
   }
@@ -162,7 +162,7 @@ export default function OverviewPage() {
         <article className="featureRow">
           <Media
             src="/assets/projects/skyline-10.jpg"
-            alt="Residents' lounge at Nilkanth Skyline"
+            alt="Residents' lounge at Skyline Residences"
             sizes="(max-width: 860px) 100vw, 66vw"
             parallax
           />

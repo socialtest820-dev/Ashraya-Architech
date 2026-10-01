@@ -1,40 +1,41 @@
-// Ashraya Architects — website content drawn from the Website Content Master Form.
-// Only approved / verified content is published; pending items stay out of the site.
+// Acme Architects (placeholder brand) — website content template.
+// Replace values in `firm` / `people` / `contact` with real client data before launch.
 
 export const firm = {
-  name: "Ashraya Architects",
-  shortName: "Ashraya",
+  name: "Acme Architects",
+  shortName: "Acme",
   tagline: "Let's Design Tomorrow.",
   positioning:
-    "Ashraya Architects is a multidisciplinary architecture and design practice delivering architecture, interiors, urban thinking, visualization and execution-oriented documentation from concept to built reality.",
+    "Acme Architects is a multidisciplinary architecture and design practice delivering architecture, interiors, urban thinking, visualization and execution-oriented documentation from concept to built reality.",
   intro50:
-    "Ashraya Architects is a multidisciplinary architecture and design practice working across architecture, interiors, commercial and corporate projects, urban design, master planning, visualization, tendering and design communication. We combine design thinking with practical delivery, creating clear, context-responsive solutions from early concept through documentation and built execution.",
+    "Acme Architects is a multidisciplinary architecture and design practice working across architecture, interiors, commercial and corporate projects, urban design, master planning, visualization, tendering and design communication. We combine design thinking with practical delivery, creating clear, context-responsive solutions from early concept through documentation and built execution.",
   intro100:
-    "Ashraya Architects is a multidisciplinary architecture and design practice focused on thoughtful design, clear project strategy and reliable delivery. Our work spans architecture, commercial and corporate projects, interior design, urban design, master planning, tendering and construction documentation, 3D development and architectural visualization, brochure and real-estate design communication, and product/furniture design. We approach each commission as a complete design journey — from research and concept development to coordination, visualization, documentation and execution support.",
+    "Acme Architects is a multidisciplinary architecture and design practice focused on thoughtful design, clear project strategy and reliable delivery. Our work spans architecture, commercial and corporate projects, interior design, urban design, master planning, tendering and construction documentation, 3D development and architectural visualization, brochure and real-estate design communication, and product/furniture design. We approach each commission as a complete design journey — from research and concept development to coordination, visualization, documentation and execution support.",
   heroHeadline: "Design with Clarity. Deliver with Purpose.",
   heroSupport:
     "A multidisciplinary architecture and design practice shaping architecture, interiors, commercial developments and urban-scale ideas through rigorous thinking and execution-oriented delivery.",
   vision:
-    "Our long-term ambition is to build Ashraya Architects into a recognized, trusted and future-ready multidisciplinary design practice, known for thoughtful design, professional delivery and meaningful impact. We aim to grow beyond individual projects and establish a strong corporate practice capable of delivering large-scale, complex and diverse projects across sectors and geographies.",
+    "Our long-term ambition is to build Acme Architects into a recognized, trusted and future-ready multidisciplinary design practice, known for thoughtful design, professional delivery and meaningful impact. We aim to grow beyond individual projects and establish a strong corporate practice capable of delivering large-scale, complex and diverse projects across sectors and geographies.",
   mission:
     "To translate client vision into well-researched, context-responsive and technically resolved design through a disciplined process of discovery, design, visualization, coordination, documentation and execution support.",
   purpose:
     "To improve how people experience spaces and developments by connecting design quality, functionality, responsibility and practical execution.",
   designPhilosophy:
-    "Design should be purposeful, contextual and buildable. Ashraya seeks to understand the real problem first, then shape spatial, technical and visual solutions that balance human experience, project performance, commercial realities and long-term value.",
+    "Design should be purposeful, contextual and buildable. The studio seeks to understand the real problem first, then shape spatial, technical and visual solutions that balance human experience, project performance, commercial realities and long-term value.",
   founded: "2021",
-  headOffice: "A-503, Vivanta Icon, Madhuvan Circle, Pal, Surat, Gujarat, India",
-  email: "ashrayaarchitect@gmail.com",
-  reach: "Surat and Gujarat, with projects and services extending across wider India depending on project type, scale and scope."
+  headOffice: "123 Sample Street, Suite 400, Example City, EX 12345",
+  phone: "+1 (555) 010-2030",
+  email: "hello@example.com",
+  reach: "Example City and region, with projects and services extending across the wider region depending on project type, scale and scope."
 };
 
 export const story = [
-  "Ashraya Architects was founded in 2021 by Priyansh Barvaliya and Meet Lad with a shared ambition to create spaces that are thoughtful, purposeful and meaningful.",
-  "From the beginning, the idea was simple but strong: architecture should do more than look good. It should respond to people, place, function and context while creating long-term value. That belief became the foundation of Ashraya.",
-  "The name \u201cAshraya\u201d reflects the idea of shelter, belonging and identity. For us, it represents the relationship between people and the spaces they inhabit. Every project is therefore seen not only as a design opportunity, but as a chance to create a stronger connection between purpose, experience and place.",
+  "Acme Architects was founded in 2021 by Alex Morgan and Jordan Lee with a shared ambition to create spaces that are thoughtful, purposeful and meaningful.",
+  "From the beginning, the idea was simple but strong: architecture should do more than look good. It should respond to people, place, function and context while creating long-term value. That belief became the foundation of the studio.",
+  "The placeholder name \u201cAcme\u201d stands in for the client's brand. It represents the relationship between people and the spaces they inhabit. Every project is therefore seen not only as a design opportunity, but as a chance to create a stronger connection between purpose, experience and place.",
   "What began as a focused design practice has steadily evolved into a growing multidisciplinary studio. Over time, the practice has expanded its capabilities across architecture, interiors, commercial and corporate projects, residential developments, visualization, planning, technical documentation, tendering and project consultancy.",
   "Each commission has helped us strengthen our understanding of design, technology, materials, execution, coordination and project delivery. As the practice grows, we continue to build stronger systems, deeper technical capability and more collaborative ways of working.",
-  "Today, Ashraya Architects is moving toward a more structured, corporate and multidisciplinary practice. Our focus is increasingly on larger, more complex and diverse projects where design thinking can create measurable value for clients, users and the built environment.",
+  "Today, Acme Architects is moving toward a more structured, corporate and multidisciplinary practice. Our focus is increasingly on larger, more complex and diverse projects where design thinking can create measurable value for clients, users and the built environment.",
   "The journey that began in 2021 is still in its early chapters. What remains constant is the ambition to keep learning, improving and creating work that stays relevant over time.",
   "Let's Design Tomorrow."
 ];
@@ -89,7 +90,7 @@ export const facts = [
   { value: "10–15", label: "Team members" },
   { value: "10–12", label: "Completed projects" },
   { value: "10", label: "Ongoing projects" },
-  { value: "Surat / Gujarat", label: "Base + wider India" }
+  { value: "Example City / Region", label: "Base + wider region" }
 ];
 
 export type Person = {
@@ -101,21 +102,21 @@ export type Person = {
 
 export const people: Person[] = [
   {
-    name: "Priyansh Barvaliya",
+    name: "Alex Morgan",
     role: "Co-founder & Principal Architect",
-    bio: "Co-founder and Principal Architect at Ashraya Architects, with 7 years of experience across architectural design, design strategy, commercial and corporate projects, residential development, interiors, master planning, 3D visualization, project coordination and design management. A B.Arch. graduate, he contributes to the practice's multidisciplinary, design-to-delivery approach and its continued development as a structured, future-ready studio.",
+    bio: "Co-founder and Principal Architect at Acme Architects, with 7 years of experience across architectural design, design strategy, commercial and corporate projects, residential development, interiors, master planning, 3D visualization, project coordination and design management. A B.Arch. graduate, they contribute to the practice's multidisciplinary, design-to-delivery approach and its continued development as a structured, future-ready studio.",
     focus: ["Architectural Design", "Design Strategy", "Commercial & Corporate Projects", "Residential Development", "Master Planning", "Design Management"]
   },
   {
-    name: "Meet Lad",
+    name: "Jordan Lee",
     role: "Co-founder & Principal Architect",
-    bio: "Co-founder and Principal Architect at Ashraya Architects, with 7 years of experience across architectural design, design strategy, commercial and corporate projects, residential development, interiors, master planning, 3D visualization, project coordination and design management. A B.Arch. graduate, he contributes to the studio's integrated approach to design, coordination, visualization and project delivery across scales.",
+    bio: "Co-founder and Principal Architect at Acme Architects, with 7 years of experience across architectural design, design strategy, commercial and corporate projects, residential development, interiors, master planning, 3D visualization, project coordination and design management. A B.Arch. graduate, they contribute to the studio's integrated approach to design, coordination, visualization and project delivery across scales.",
     focus: ["Architectural Design", "Design Strategy", "Interiors", "3D Visualization", "Project Coordination", "Delivery"]
   }
 ];
 
 export const timeline = [
-  { year: "2021", event: "Ashraya Architects founded by Priyansh Barvaliya and Meet Lad." },
+  { year: "2021", event: "Acme Architects founded by Alex Morgan and Jordan Lee." },
   { year: "2026", event: "Operating as a growing multidisciplinary studio across architecture, interiors, urban/master planning, visualization, tendering and documentation — with the stated ambition of building a structured corporate practice." }
 ];
 
@@ -272,7 +273,7 @@ export const expertise: Expertise[] = [
     proposition:
       "In-house 3D development and rendering that supports design decisions and communicates projects to buyers, boards and authorities.",
     overview:
-      "Visualization at Ashraya is a working tool, not decoration. Iterative 3D studies test form, space and materials during design; presentation-quality renders, walkthroughs and marketing visuals then carry the project to clients, buyers and approval boards with clarity.",
+      "Visualization at the studio is a working tool, not decoration. Iterative 3D studies test form, space and materials during design; presentation-quality renders, walkthroughs and marketing visuals then carry the project to clients, buyers and approval boards with clarity.",
     subServices: ["3D development", "Exterior and interior renders", "Walkthrough films", "Marketing and communication visuals"],
     deliverables: ["Rendered views", "Walkthroughs", "Presentation packages"]
   },
@@ -316,7 +317,7 @@ export const insights: Insight[] = [
     date: "2026-08",
     readingTime: "4 min",
     excerpt:
-      "Why every Ashraya project begins with the site, the brief and the commercial reality — and only then with a drawing.",
+      "Why every Acme project begins with the site, the brief and the commercial reality — and only then with a drawing.",
     cover: "/assets/projects/skyline-09.jpg",
     body: [
       "Every commission arrives with a temptation: to start with an image. A striking massing model, a render that photographs well. Our process is deliberately arranged to resist that temptation.",
@@ -337,7 +338,7 @@ export const insights: Insight[] = [
     body: [
       "In multi-storey residential work, the floor plate is where commercial logic meets design. Three numbers matter more than any elevation: net-to-gross ratio, corridor length per apartment and bay depth against daylight.",
       "Slender volumes cost more per square foot to build but sell better — more corners, more light, shorter corridors. A heavier plate is efficient on paper but produces dark middle units that discount in the market.",
-      "At Nilkanth Skyline, the massing is organised as a family of slender vertical volumes. Every apartment gains a corner, internal circulation shrinks, and the facade rhythm carries the identity of the development.",
+      "At Skyline Residences, the massing is organised as a family of slender vertical volumes. Every apartment gains a corner, internal circulation shrinks, and the facade rhythm carries the identity of the development.",
       "Efficiency is not the enemy of design quality. Handled early, it is what funds it."
     ]
   },
@@ -353,7 +354,7 @@ export const insights: Insight[] = [
     body: [
       "Rendering is usually discussed as marketing. In our studio it enters the process far earlier: massing options are compared in 3D, materials are tested under the site's actual sun position, and clients approve directions against views they can genuinely read.",
       "This changes the conversation. A plan drawing asks a client to imagine; a daylight-accurate view asks them to judge. Decisions arrive faster and with more confidence, and fewer are reversed during documentation.",
-      "The same assets then serve marketing, brochures and approvals downstream — the walkthrough film for Swarnbhumi began as a design review tool.",
+      "The same assets then serve marketing, brochures and approvals downstream — the walkthrough film for Greenfield Township began as a design review tool.",
       "Visualization is not the last step of design. Used well, it is part of the thinking."
     ]
   },
@@ -385,7 +386,7 @@ export const insights: Insight[] = [
     body: [
       "In township master plans, open space is often the residue — what remains after plots and roads are drawn. The result is fragmented parks that look green on the marketing plan but do little for the place.",
       "Our approach inverts the sequence. Landscape is drawn as infrastructure first: corridors that carry monsoon water, shade pedestrian desire lines, and connect schools, retail and community facilities into a walkable network.",
-      "At Swarnbhumi, these corridors organise the whole plan. Residential clusters face them; daily needs sit along them; the township's identity comes from them.",
+      "At Greenfield Township, these corridors organise the whole plan. Residential clusters face them; daily needs sit along them; the township's identity comes from them.",
       "Landscape planned as infrastructure performs. Landscape planned as leftover space only photographs."
     ]
   },
@@ -400,7 +401,7 @@ export const insights: Insight[] = [
     cover: "/assets/projects/empire-01.jpg",
     body: [
       "Commercial buildings compete on rent per square foot, but tenants choose with their eyes first. A facade communicates governance before a single brochure is read.",
-      "Discipline is legible: regular bays, honest structure, controlled materials. The Empire is designed around this reading — a single confident volume articulated by vertical fins rather than applied decoration.",
+      "Discipline is legible: regular bays, honest structure, controlled materials. Meridian Tower is designed around this reading — a single confident volume articulated by vertical fins rather than applied decoration.",
       "Beneath the surface, the plan does the quiet work: regular grids, positioned cores, full-floor flexibility and a ground level that gives arrival the dignity of a lobby rather than a lobby shop.",
       "An address is the sum of that discipline, visible from the street."
     ]
@@ -410,7 +411,7 @@ export const insights: Insight[] = [
 export const careers = {
   headline: "Design. Think. Create. Grow With Us.",
   proposition:
-    "Join a studio where thoughtful design, hands-on learning and real project responsibility come together. Ashraya Architects aims to give designers exposure from concept and visualization through documentation, coordination and site execution.",
+    "Join a studio where thoughtful design, hands-on learning and real project responsibility come together. Acme Architects aims to give designers exposure from concept and visualization through documentation, coordination and site execution.",
   culture: [
     { title: "Collaborative by default", copy: "Design discussion, clear communication and shared responsibility are how the studio works daily." },
     { title: "Learning structured in", copy: "Design reviews, drawing feedback and project discussions with senior and project leads are part of the rhythm, not an add-on." },
@@ -419,7 +420,7 @@ export const careers = {
   ],
   applicationSteps: [
     "Select the role you are applying for.",
-    "Submit your CV and portfolio (PDF or link) to ashrayaarchitect@gmail.com or through the contact form.",
+    "Submit your CV and portfolio (PDF or link) to hello@example.com or through the contact form.",
     "Initial screening of applications.",
     "Interview and design discussion, as applicable to the role.",
     "Final selection and offer."
@@ -432,7 +433,7 @@ export const careers = {
     {
       title: "Junior Architect",
       department: "Architecture",
-      location: "Surat, Gujarat",
+      location: "Example City",
       type: "Full-time",
       experience: "0–2 years",
       summary:
@@ -453,7 +454,7 @@ export const careers = {
     {
       title: "Senior Architect / Project Lead",
       department: "Architecture",
-      location: "Surat, Gujarat",
+      location: "Example City",
       type: "Full-time",
       experience: "4–7 years",
       summary:
@@ -474,7 +475,7 @@ export const careers = {
     {
       title: "Junior Interior Designer",
       department: "Interior Design",
-      location: "Surat, Gujarat",
+      location: "Example City",
       type: "Full-time",
       experience: "0–2 years",
       summary:
@@ -495,7 +496,7 @@ export const careers = {
     {
       title: "Interior Designer",
       department: "Interior Design",
-      location: "Surat, Gujarat",
+      location: "Example City",
       type: "Full-time",
       experience: "2+ years",
       summary:
@@ -516,7 +517,7 @@ export const careers = {
     {
       title: "Architectural Intern",
       department: "Internship",
-      location: "Surat, Gujarat",
+      location: "Example City",
       type: "Internship",
       experience: "Student / fresher",
       summary:
@@ -542,7 +543,7 @@ export const faqs = [
     category: "Clients",
     question: "Which locations do you work in?",
     answer:
-      "Ashraya Architects is based in Surat, Gujarat and undertakes projects across Gujarat and selectively across wider India depending on project type, scale, scope and delivery requirements."
+      "Acme Architects is based in Example City and undertakes projects across the region and selectively across the wider region depending on project type, scale, scope and delivery requirements."
   },
   {
     category: "Clients",
@@ -578,7 +579,7 @@ export const faqs = [
     category: "Careers",
     question: "How do I apply?",
     answer:
-      "Submit your CV and portfolio through the Careers page or email ashrayaarchitect@gmail.com. Shortlisted candidates will be contacted for the next stage."
+      "Submit your CV and portfolio through the Careers page or email hello@example.com. Shortlisted candidates will be contacted for the next stage."
   },
   {
     category: "Careers",

@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { projects } from "../data/projects";
 import { insights } from "../data/firm";
 
-const BASE_URL = "https://ashraya-architects.com"; // Replace with actual domain when deployed
+const BASE_URL = "https://example.com"; // Replace with actual client domain when deployed
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [

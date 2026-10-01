@@ -5,7 +5,7 @@ import { allProjectImages, projects } from "../../data/projects";
 
 export const metadata: Metadata = {
   title: "Gallery",
-  description: "A visual gallery of Ashraya Architects projects."
+  description: "A visual gallery of Acme Architects projects."
 };
 
 export default function GalleryPage() {

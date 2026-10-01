@@ -8,7 +8,7 @@ import { firm, story, values, designPrinciples, facts, people, timeline, sustain
 export const metadata: Metadata = {
   title: "Studio",
   description:
-    "Learn about Ashraya Architects, our multidisciplinary design approach, values, process and ambition to connect design thinking with reliable project delivery."
+    "Learn about Acme Architects, our multidisciplinary design approach, values, process and ambition to connect design thinking with reliable project delivery."
 };
 
 const d = (n: number) => ({ "--d": n }) as React.CSSProperties;
@@ -30,7 +30,7 @@ export default function StudioPage() {
 
       <Media
         src="/assets/projects/skyline-12.jpg"
-        alt="Double-height entrance lobby at Nilkanth Skyline"
+        alt="Double-height entrance lobby at Skyline Residences"
         className="pageHero"
         parallax
         priority
@@ -95,13 +95,13 @@ export default function StudioPage() {
         >
           <Media
             src="/assets/projects/vimal-02.jpg"
-            alt="Valsad Bungalow, corner view"
+            alt="Garden Bungalow, corner view"
             className="ratio-tall"
             parallax
           />
           <Media
             src="/assets/projects/swarnbhumi-02.jpg"
-            alt="Swarnbhumi residences"
+            alt="Greenfield Township residences"
             className="ratio-tall"
             parallax
             style={{ marginTop: "clamp(0px, 8vw, 120px)" }}

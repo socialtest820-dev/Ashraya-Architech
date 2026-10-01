@@ -4,7 +4,7 @@ import ProjectArchive from "../../components/ProjectArchive";
 
 export const metadata: Metadata = {
   title: "Projects",
-  description: "Architecture, township planning, commercial and residential projects by Ashraya Architects."
+  description: "Architecture, township planning, commercial and residential projects by Acme Architects."
 };
 
 export default function ProjectsPage() {

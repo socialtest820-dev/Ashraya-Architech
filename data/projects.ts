@@ -26,10 +26,10 @@ const img = (name: string) => `/assets/projects/${name}.jpg`;
 export const projects: Project[] = [
   {
     slug: "nilkanth-skyline",
-    title: "Nilkanth Skyline",
+    title: "Skyline Residences",
     type: "Residential Development",
     sector: "Real Estate Development",
-    location: "Surat, Gujarat",
+    location: "Example City",
     year: "2025 — Ongoing",
     status: "Under Construction",
     services: ["Architecture", "3D Development / Architectural Visualization", "Real-estate Design Communication"],
@@ -37,9 +37,9 @@ export const projects: Project[] = [
     summary:
       "A high-rise residential development composed as a series of slender vertical volumes, shaped by light, rhythm and long city views.",
     story: [
-      "Nilkanth Skyline is a flagship residential development that condenses Ashraya's design thinking into a vertical format: clear planning, calm facades and homes oriented toward light and ventilation.",
+      "Skyline Residences is a flagship residential development that condenses the studio's design thinking into a vertical format: clear planning, calm facades and homes oriented toward light and ventilation.",
       "The massing is organised as slender vertical volumes rather than a single heavy block. This keeps every apartment corner-oriented, shortens internal corridors and gives the development a light, rhythmic presence on the skyline.",
-      "Facade bays are sized to shade glazing from the high Gujarat sun while preserving open views. Balcony lines and vertical fins establish a repeated rhythm that reads clearly from a distance and scales down to intimate detail at street level.",
+      "Facade bays are sized to shade glazing from the high summer sun while preserving open views. Balcony lines and vertical fins establish a repeated rhythm that reads clearly from a distance and scales down to intimate detail at street level.",
       "As the practice's featured launch case study, the project also demonstrates our visualization capability — the rendered views shown here were developed in-house as design and communication tools, not afterthoughts."
     ],
     cover: img("skyline-07"),
@@ -61,10 +61,10 @@ export const projects: Project[] = [
   },
   {
     slug: "swarnbhumi",
-    title: "Swarnbhumi",
+    title: "Greenfield Township",
     type: "Township Planning",
     sector: "Township / Urban Development",
-    location: "Gujarat, India",
+    location: "Example Region",
     year: "2024 — Ongoing",
     status: "Ongoing",
     services: ["Urban Design", "Master Planning", "Architecture", "3D Development / Architectural Visualization"],
@@ -72,7 +72,7 @@ export const projects: Project[] = [
     summary:
       "A township master plan organised around green corridors, slow movement and a clear hierarchy of plots, streets and shared open space.",
     story: [
-      "Swarnbhumi extends Ashraya's work to the scale of urban structure. The master plan sets a clear hierarchy: primary movement spines, quiet residential clusters and a connected network of green open space.",
+      "Greenfield Township extends the studio's work to the scale of urban structure. The master plan sets a clear hierarchy: primary movement spines, quiet residential clusters and a connected network of green open space.",
       "The plan prioritises walkability. Schools, daily retail and community facilities sit within short walking distances of residential clusters, and shaded pedestrian paths follow the natural desire lines between them.",
       "Landscape is treated as infrastructure — the green corridors manage monsoon water, temper the microclimate and give the township its identity, rather than acting as leftover space between plots.",
       "The walkthrough film shown on this page was produced in-house to communicate the character of the place to stakeholders and future residents."
@@ -92,10 +92,10 @@ export const projects: Project[] = [
   },
   {
     slug: "the-empire",
-    title: "The Empire",
+    title: "Meridian Tower",
     type: "Commercial Building",
     sector: "Commercial / Office Buildings",
-    location: "Surat, Gujarat",
+    location: "Example City",
     year: "2026 — Concept",
     status: "Concept",
     services: ["Architecture", "Interior Design", "3D Development / Architectural Visualization"],
@@ -103,7 +103,7 @@ export const projects: Project[] = [
     summary:
       "A commercial address with a strong vertical identity — layered stone, deep vertical glazing and a calm, businesslike presence.",
     story: [
-      "The Empire is a commercial development concept designed to project stability and clarity. The building reads as a single confident volume, articulated by a disciplined facade of vertical fins and glazing.",
+      "Meridian Tower is a commercial development concept designed to project stability and clarity. The building reads as a single confident volume, articulated by a disciplined facade of vertical fins and glazing.",
       "The ground level is designed as a public threshold — a double-height lobby and covered approach that gives tenants a dignified arrival and separates service movement from visitor movement.",
       "Floor plates favour planning efficiency: regular structural grids, full-floor flexibility and service cores positioned to keep maximum frontage usable. Material studies pair warm stone tones with deep glazing to balance solidity with daylight.",
       "Concept visualisations shown here were developed in-house to test massing, material character and street presence with the client."
@@ -119,10 +119,10 @@ export const projects: Project[] = [
   },
   {
     slug: "valsad-bungalow",
-    title: "Valsad Bungalow",
+    title: "Garden Bungalow",
     type: "Private Residence",
     sector: "Residential / Housing",
-    location: "Valsad, Gujarat",
+    location: "Riverside Town",
     year: "2024 — Ongoing",
     status: "Ongoing",
     services: ["Architecture", "Interior Design", "Tendering & Construction Documentation"],
@@ -130,10 +130,10 @@ export const projects: Project[] = [
     summary:
       "A private bungalow composed around a shaded central volume, with deep verandahs mediating between garden and interior.",
     story: [
-      "Valsad Bungalow is a private residence for a family that wanted openness without exposure. The plan wraps living spaces around a shaded central volume, with verandahs deep enough to make the garden usable through Gujarat's long summers.",
+      "Garden Bungalow is a private residence for a family that wanted openness without exposure. The plan wraps living spaces around a shaded central volume, with verandahs deep enough to make the garden usable through long summers.",
       "Openings are grouped to pull cross-ventilation through the main rooms, and the verandah roof throws deep shadow across the inner facade during the hottest hours.",
       "The material palette keeps to a quiet register — plaster, stone and timber — so that the garden and the changing light carry the visual life of the house.",
-      "Ashraya is delivering the project from concept through tendering and construction documentation, maintaining design intent into working drawings."
+      "The studio is delivering the project from concept through tendering and construction documentation, maintaining design intent into working drawings."
     ],
     cover: img("vimal-01"),
     featured: true,
@@ -144,10 +144,10 @@ export const projects: Project[] = [
   },
   {
     slug: "tithal-farmhouse",
-    title: "Tithal Farmhouse",
+    title: "Lakeside Retreat",
     type: "Weekend Retreat",
     sector: "Hospitality",
-    location: "Tithal, Gujarat",
+    location: "Lakeside District",
     year: "Concept stage",
     status: "Concept",
     services: ["Architecture", "Master Planning"],
@@ -155,7 +155,7 @@ export const projects: Project[] = [
     summary:
       "A weekend retreat near the coast, planned as a loose cluster of shaded pavilions that open to the landscape between them.",
     story: [
-      "Tithal Farmhouse is conceived as a retreat that dissolves the boundary between shelter and landscape. Rather than a single mass, the plan proposes a loose cluster of pavilions — living, resting and gathering — connected by shaded walkways.",
+      "Lakeside Retreat is conceived as a retreat that dissolves the boundary between shelter and landscape. Rather than a single mass, the plan proposes a loose cluster of pavilions — living, resting and gathering — connected by shaded walkways.",
       "Roof forms are calibrated for monsoon rainfall and sea-air exposure, and each pavilion orients to its own frame of garden and sky.",
       "The project is currently in early design; imagery and site details will be published as the design develops."
     ],
@@ -164,10 +164,10 @@ export const projects: Project[] = [
   },
   {
     slug: "uttam-bungalow",
-    title: "Uttam Bungalow",
+    title: "Courtyard House",
     type: "Private Residence",
     sector: "Residential / Housing",
-    location: "Gujarat, India",
+    location: "Example Region",
     year: "Ongoing",
     status: "Ongoing",
     services: ["Architecture", "Interior Design", "3D Development / Architectural Visualization"],
@@ -175,7 +175,7 @@ export const projects: Project[] = [
     summary:
       "A family residence organised around a clear central axis, pairing formal arrival with informal garden-facing living spaces.",
     story: [
-      "Uttam Bungalow separates the formal and informal life of the house along a single clear axis: arrival and reception on one side, garden-facing family spaces on the other.",
+      "Courtyard House separates the formal and informal life of the house along a single clear axis: arrival and reception on one side, garden-facing family spaces on the other.",
       "Bedroom volumes are placed to catch morning light while remaining shielded from afternoon heat, and service zones are consolidated into a compact rear band.",
       "The project is in active documentation; imagery will follow as construction progresses."
     ],
@@ -184,10 +184,10 @@ export const projects: Project[] = [
   },
   {
     slug: "casa-ceilo",
-    title: "Casa Ceilo",
+    title: "Terrace Villa",
     type: "Villa",
     sector: "Residential / Housing",
-    location: "Gujarat, India",
+    location: "Example Region",
     year: "Concept stage",
     status: "Concept",
     services: ["Architecture", "3D Development / Architectural Visualization"],
@@ -195,7 +195,7 @@ export const projects: Project[] = [
     summary:
       "A villa concept composed of stacked horizontal slabs, opening every principal room to sky and terrace.",
     story: [
-      "Casa Ceilo studies how far a villa can open itself to the sky while keeping privacy from its neighbours. Stacked horizontal slabs carry deep overhangs, and the principal rooms extend into covered terraces.",
+      "Terrace Villa studies how far a villa can open itself to the sky while keeping privacy from its neighbours. Stacked horizontal slabs carry deep overhangs, and the principal rooms extend into covered terraces.",
       "The section steps with the site so that each level keeps a clear view line over the roof below.",
       "The project is in concept development; visuals will be published when the design direction is approved."
     ],

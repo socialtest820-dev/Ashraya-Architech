@@ -6,7 +6,7 @@ import { careers, firm } from "../../data/firm";
 
 export const metadata: Metadata = {
   title: "Careers",
-  description: "Open roles and internships at Ashraya Architects, Surat."
+  description: "Open roles and internships at Acme Architects, Example City."
 };
 
 const d = (n: number) => ({ "--d": n }) as React.CSSProperties;
@@ -18,7 +18,7 @@ export default function CareersPage() {
 
       <Media
         src="/assets/projects/skyline-09.jpg"
-        alt="Fitness studio at Nilkanth Skyline"
+        alt="Fitness studio at Skyline Residences"
         className="pageHero"
         parallax
         priority
@@ -52,7 +52,7 @@ export default function CareersPage() {
               Open Positions
             </p>
             <h2 className="h2" data-reveal style={d(1)}>
-              Current roles in Surat.
+              Current roles in Example City.
             </h2>
           </div>
         </div>
@@ -135,7 +135,7 @@ export default function CareersPage() {
           <a
             className="button"
             style={{ marginTop: 40 }}
-            href={`mailto:${firm.email}?subject=${encodeURIComponent("Application — Ashraya Architects")}`}
+            href={`mailto:${firm.email}?subject=${encodeURIComponent("Application — Acme Architects")}`}
             data-reveal
           >
             Send your application <ArrowUpRight size={16} />

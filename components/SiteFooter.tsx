@@ -20,7 +20,7 @@ export default function SiteFooter() {
         <div className="footerBrand">
           <LogoMark size={44} />
           <p>{firm.positioning}</p>
-          <p className="coords">21.19° N, 72.77° E — Pal, Surat</p>
+          <p className="coords">00.00° N, 00.00° E — Example City</p>
         </div>
         <div>
           <h4>Studio</h4>
@@ -53,7 +53,7 @@ export default function SiteFooter() {
 
       <div className="footerBottom">
         <span>
-          © {new Date().getFullYear()} {firm.name}. Surat, Gujarat.
+          © {new Date().getFullYear()} {firm.name}. Example City.
         </span>
         <button type="button" className="toTop" onClick={toTop}>
           Top <ArrowUp size={14} />

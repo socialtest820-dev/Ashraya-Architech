@@ -61,7 +61,7 @@ export default function SiteHeader() {
         <Link href="/" className="brand" aria-label={`${firm.name} — home`}>
           <LogoMark />
           <span>
-            Ashraya
+            Acme
             <small>Architects</small>
           </span>
         </Link>

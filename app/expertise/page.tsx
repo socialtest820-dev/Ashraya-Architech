@@ -24,7 +24,7 @@ export default function ExpertisePage() {
 
       <Media
         src="/assets/projects/swarnbhumi-07.jpg"
-        alt="Aerial view of the Swarnbhumi township plan"
+        alt="Aerial view of the Greenfield Township plan"
         className="pageHero"
         parallax
         priority
@@ -72,7 +72,7 @@ export default function ExpertisePage() {
         <div className="sectionHead">
           <div>
             <p className="eyebrow" data-reveal>
-              Why Ashraya
+              Why Acme
             </p>
             <h2 className="h2" data-reveal style={d(1)}>
               What sets the practice apart.
