@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { projects } from "../data/projects";
 import { insights } from "../data/firm";
 
-const BASE_URL = "https://example.com"; // Replace with actual client domain when deployed
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://acme-architects-template.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [

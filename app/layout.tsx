@@ -9,8 +9,10 @@ const display = Archivo({ subsets: ["latin"], axes: ["wdth"], variable: "--font-
 const body = Public_Sans({ subsets: ["latin"], variable: "--font-body", display: "swap" });
 const mono = IBM_Plex_Mono({ subsets: ["latin"], weight: ["400", "500"], variable: "--font-mono", display: "swap" });
 
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://acme-architects-template.vercel.app";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://example.com"),
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "Acme Architects | Architecture & Design Practice",
     template: "%s | Acme Architects"
@@ -20,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Acme Architects",
     description: "Multidisciplinary architecture and design practice in Example City.",
-    url: "https://example.com",
+    url: SITE_URL,
     siteName: "Acme Architects",
     locale: "en_US",
     type: "website"

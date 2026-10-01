@@ -61,8 +61,8 @@ export default function SiteHeader() {
         <Link href="/" className="brand" aria-label={`${firm.name} — home`}>
           <LogoMark />
           <span>
-            Acme
-            <small>Architects</small>
+            {firm.shortName}
+            <small>{firm.name.replace(firm.shortName, "").trim()}</small>
           </span>
         </Link>
         <div className="headerNav">
